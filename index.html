@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miniature Tool Prompt Generator | Ultra Realistic</title>
+    <meta name="description"
+        content="Generate ultra-realistic miniature tool image prompts for Google Flow Banana Pro. Create stunning tiny tool photography prompts.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Animated background particles -->
+    <div class="bg-particles" id="bgParticles"></div>
+
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-icon">🔧</div>
+            <h1 class="app-title">Miniature Tool</h1>
+            <p class="app-subtitle">Prompt Generator</p>
+            <p class="app-tagline">Ultra Realistic • Google Flow Banana Pro</p>
+        </header>
+
+        <!-- Tool Category Section -->
+        <section class="section">
+            <h2 class="section-title">
+                <span class="section-icon">📂</span>
+                Pilih Kategori Alat
+            </h2>
+            <div class="category-grid" id="categoryGrid">
+                <div class="category-card" data-category="wood" tabindex="0">
+                    <div class="category-icon">🪚</div>
+                    <div class="category-name">Potong Kayu</div>
+                    <div class="category-desc">Chainsaw, Gergaji, Jigsaw</div>
+                    <div class="card-glow"></div>
+                </div>
+                <div class="category-card" data-category="metal" tabindex="0">
+                    <div class="category-icon">⚙️</div>
+                    <div class="category-name">Potong Besi</div>
+                    <div class="category-desc">Gerinda, Plasma, Band Saw</div>
+                    <div class="card-glow"></div>
+                </div>
+                <div class="category-card" data-category="welding" tabindex="0">
+                    <div class="category-icon">🔥</div>
+                    <div class="category-name">Alat Las</div>
+                    <div class="category-desc">MIG, TIG, Arc Welder</div>
+                    <div class="card-glow"></div>
+                </div>
+                <div class="category-card" data-category="drilling" tabindex="0">
+                    <div class="category-icon">🔩</div>
+                    <div class="category-name">Alat Bor</div>
+                    <div class="category-desc">Impact Drill, Core Drill</div>
+                    <div class="card-glow"></div>
+                </div>
+                <div class="category-card" data-category="hand" tabindex="0">
+                    <div class="category-icon">🛠️</div>
+                    <div class="category-name">Alat Tangan</div>
+                    <div class="category-desc">Palu, Tang, Kunci, Obeng</div>
+                    <div class="card-glow"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specific Tool Selection -->
+        <section class="section" id="toolSection" style="display:none;">
+            <h2 class="section-title">
+                <span class="section-icon">🔧</span>
+                Pilih Alat Spesifik
+            </h2>
+            <div class="tool-grid" id="toolGrid"></div>
+        </section>
+
+        <!-- Material / Target Object -->
+        <section class="section" id="materialSection" style="display:none;">
+            <h2 class="section-title">
+                <span class="section-icon">🪵</span>
+                Objek yang Dikerjakan
+            </h2>
+            <div class="tool-grid" id="materialGrid"></div>
+        </section>
+
+        <!-- Customization Options -->
+        <section class="section" id="customSection" style="display:none;">
+            <h2 class="section-title">
+                <span class="section-icon">🎨</span>
+                Kustomisasi
+            </h2>
+            <div class="options-grid">
+                <!-- Background Scene -->
+                <div class="option-group">
+                    <label class="option-label">🏞️ Background / Latar</label>
+                    <select id="backgroundSelect" class="option-select">
+                        <option value="workshop">Workshop / Bengkel</option>
+                        <option value="forest">Hutan / Forest</option>
+                        <option value="metalshop">Metal Shop</option>
+                        <option value="outdoor">Outdoor / Luar Ruangan</option>
+                        <option value="studio">Studio Foto</option>
+                        <option value="construction">Lokasi Konstruksi</option>
+                        <option value="garden">Taman / Garden</option>
+                    </select>
+                </div>
+
+                <!-- Lighting -->
+                <div class="option-group">
+                    <label class="option-label">💡 Pencahayaan</label>
+                    <select id="lightingSelect" class="option-select">
+                        <option value="natural">Natural Daylight</option>
+                        <option value="studio">Studio Lighting</option>
+                        <option value="golden">Golden Hour</option>
+                        <option value="dramatic">Dramatic Side Light</option>
+                        <option value="warm">Warm Tungsten</option>
+                        <option value="cold">Cold Blue Light</option>
+                    </select>
+                </div>
+
+                <!-- Hand Position -->
+                <div class="option-group">
+                    <label class="option-label">🤏 Posisi Tangan</label>
+                    <select id="handSelect" class="option-select">
+                        <option value="pinch">Pinch Grip (Jepit Jari)</option>
+                        <option value="palm">Di Telapak Tangan</option>
+                        <option value="fingertip">Di Ujung Jari</option>
+                        <option value="twohand">Dua Tangan</option>
+                        <option value="table">Di Atas Meja</option>
+                        <option value="comparison">Dibandingkan dengan Koin</option>
+                    </select>
+                </div>
+
+                <!-- Glove Type -->
+                <div class="option-group">
+                    <label class="option-label">🧤 Sarung Tangan</label>
+                    <select id="gloveSelect" class="option-select">
+                        <option value="bare">Tanpa Sarung Tangan (Tangan Kotor)</option>
+                        <option value="leather">Sarung Tangan Kulit (Leather)</option>
+                        <option value="rubber">Sarung Tangan Karet (Rubber)</option>
+                        <option value="welding">Sarung Tangan Las (Welding)</option>
+                        <option value="nitrile">Sarung Tangan Mekanik (Nitrile)</option>
+                        <option value="cotton">Sarung Tangan Katun (Cotton)</option>
+                    </select>
+                </div>
+
+                <!-- Brand -->
+                <div class="option-group">
+                    <label class="option-label">🏷️ Brand / Merek</label>
+                    <select id="brandSelect" class="option-select">
+                        <option value="stihl">STIHL</option>
+                        <option value="dewalt">DeWalt</option>
+                        <option value="makita">Makita</option>
+                        <option value="bosch">Bosch</option>
+                        <option value="milwaukee">Milwaukee</option>
+                        <option value="hilti">Hilti</option>
+                        <option value="generic">Generic / Tanpa Merek</option>
+                    </select>
+                </div>
+
+                <!-- Detail Level -->
+                <div class="option-group">
+                    <label class="option-label">🔍 Level Detail</label>
+                    <select id="detailSelect" class="option-select">
+                        <option value="standard">Standard</option>
+                        <option value="macro">Extreme Macro</option>
+                        <option value="closeup">Close-Up</option>
+                        <option value="wide">Wide Shot</option>
+                    </select>
+                </div>
+
+                <!-- Material Condition -->
+                <div class="option-group">
+                    <label class="option-label">✨ Kondisi Alat</label>
+                    <select id="conditionSelect" class="option-select">
+                        <option value="new">Baru / Brand New</option>
+                        <option value="used">Bekas Pakai / Used</option>
+                        <option value="vintage">Vintage / Antik</option>
+                        <option value="weathered">Lapuk / Weathered</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <!-- Action Buttons -->
+        <section class="section" id="actionSection" style="display:none;">
+            <div class="action-buttons">
+                <button class="btn-generate" id="generateBtn" onclick="generatePrompt()">
+                    <span class="btn-icon">⚡</span>
+                    <span class="btn-text">Generate Prompt</span>
+                    <div class="btn-shine"></div>
+                </button>
+                <button class="btn-random" id="randomBtn" onclick="generateRandom()">
+                    <span class="btn-icon">🎲</span>
+                    <span class="btn-text">Random</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Output Section -->
+        <section class="section" id="outputSection" style="display:none;">
+            <h2 class="section-title">
+                <span class="section-icon">📝</span>
+                Generated Prompt
+            </h2>
+            <div class="output-card">
+                <div class="output-header">
+                    <span class="output-badge">Ultra Realistic Prompt</span>
+                    <div class="output-actions">
+                        <button class="btn-copy" id="copyBtn" onclick="copyPrompt()">
+                            <span>📋 Copy</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="output-text" id="outputText"></div>
+            </div>
+
+            <!-- Prompt Info -->
+            <div class="prompt-info">
+                <div class="info-item">
+                    <span class="info-label">Kategori</span>
+                    <span class="info-value" id="infoCategory">-</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Alat</span>
+                    <span class="info-value" id="infoTool">-</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Brand</span>
+                    <span class="info-value" id="infoBrand">-</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>Miniature Tool Prompt Generator &copy; 2026</p>
+            <p class="footer-sub">Optimized for Google Flow Banana Pro</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
