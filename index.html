@@ -241,6 +241,31 @@
                     </select>
                 </div>
             </div>
+
+            <!-- Reference Image Section -->
+            <div class="ref-image-section">
+                <div class="ref-toggle-row">
+                    <label class="option-label">🖼️ Gambar Referensi (Google Flow)</label>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="refImageToggle">
+                        <span class="toggle-slider"></span>
+                    </label>
+                </div>
+                <div id="refImageOptions" style="display:none;">
+                    <p class="ref-hint">Deskripsikan gambar referensi yang kamu upload ke Google Flow. Prompt akan
+                        otomatis menyesuaikan agar hasil video mengikuti gambar referensi.</p>
+                    <textarea id="refImageDesc" class="ref-textarea" rows="4"
+                        placeholder="Contoh: Tangan memegang chainsaw mini STIHL berwarna orange, sedang memotong batang kayu kecil di atas meja kayu, background bengkel..."></textarea>
+                    <div class="ref-strength-row">
+                        <label class="option-label">🎯 Kekuatan Referensi</label>
+                        <select id="refStrengthSelect" class="option-select">
+                            <option value="strict">Sangat Ketat (Ikuti Persis)</option>
+                            <option value="moderate" selected>Sedang (Boleh Sedikit Variasi)</option>
+                            <option value="loose">Longgar (Inspirasi Saja)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- Action Buttons -->
