@@ -167,11 +167,11 @@ const TOOLS = {
         name: 'Potong Superhero',
         icon: '🦸',
         tools: [
-            { id: 'laser_sword', name: 'Laser Sword', emoji: '⚔️', desc: 'a miniature glowing laser sword with a brilliant energy blade emanating from a detailed metallic hilt, plasma-like glow effect, capable of slicing through superhero action figures' },
-            { id: 'plasma_blade', name: 'Plasma Blade', emoji: '⚡', desc: 'a miniature plasma cutting blade with an ionized gas edge, sci-fi handle design, intense blue-white glow, for cutting superhero figurines with dramatic flair' },
-            { id: 'power_saw_hero', name: 'Power Saw Mini', emoji: '🪚', desc: 'a miniature high-speed circular saw with reinforced blade, designed for sectioning through detailed superhero action figure plastic and rubber materials' },
-            { id: 'diamond_blade', name: 'Diamond Blade', emoji: '💎', desc: 'a miniature diamond-encrusted cutting disc with ultra-hard edge, precision arbor mount, for cleanly slicing through premium superhero collectible figures' },
-            { id: 'ultra_cutter', name: 'Ultra Cutter', emoji: '🔴', desc: 'a miniature ultrasonic cutting tool using high-frequency vibrations, creates impossibly clean cuts through superhero figure materials without melting' },
+            { id: 'laser_sword', name: 'Laser Sword', emoji: '⚔️', desc: 'a miniature precision hobby saw shaped like a futuristic sword hilt, with a thin replaceable razor blade, metallic silver and black handle grip, for cleanly slicing through collectible action figures' },
+            { id: 'plasma_blade', name: 'Plasma Blade', emoji: '⚡', desc: 'a miniature industrial plasma cutting pen with a fine ceramic nozzle tip, compact gas canister, trigger button, sci-fi styled handle, for precision cutting collectible figurines' },
+            { id: 'power_saw_hero', name: 'Power Saw Mini', emoji: '🪚', desc: 'a miniature high-speed circular saw with reinforced blade, designed for sectioning through detailed collectible action figure plastic and rubber materials' },
+            { id: 'diamond_blade', name: 'Diamond Blade', emoji: '💎', desc: 'a miniature diamond-encrusted cutting disc with ultra-hard edge, precision arbor mount, for cleanly slicing through premium collectible figures' },
+            { id: 'ultra_cutter', name: 'Ultra Cutter', emoji: '🔴', desc: 'a miniature ultrasonic cutting tool using high-frequency vibrations, creates impossibly clean cuts through collectible figure materials without melting' },
             { id: 'hero_guillotine', name: 'Guillotine Cutter', emoji: '⬇️', desc: 'a miniature precision guillotine-style paper and plastic cutter with a lever-action blade, safety guard, base plate with alignment grid' }
         ]
     },
@@ -179,12 +179,12 @@ const TOOLS = {
         name: 'Potong Anomali',
         icon: '👾',
         tools: [
-            { id: 'anomaly_chainsaw', name: 'Chainsaw Anomali', emoji: '🪚', desc: 'a miniature glowing anomalous chainsaw with crackling energy teeth, distorted chain blade, eerie green luminescence, designed for cutting through mysterious anomaly figurines' },
-            { id: 'anomaly_laser', name: 'Laser Anomali', emoji: '⚡', desc: 'a miniature anomalous laser cutting tool with a flickering unstable beam, strange purple glow, warping the air around it, for slicing anomaly character figures' },
-            { id: 'anomaly_blade', name: 'Blade Dimensi', emoji: '🌀', desc: 'a miniature dimensional blade that seems to phase between realities, shimmering edge, cuts through anomaly figures as if they were butter, reality-bending visual effect' },
-            { id: 'anomaly_saw', name: 'Gergaji Portal', emoji: '🔮', desc: 'a miniature portal-powered saw with a blade that extends through a tiny dimensional rift, glowing edges, cosmic energy particles, for cutting anomaly character collectibles' },
-            { id: 'anomaly_plasma', name: 'Plasma Distorsi', emoji: '💜', desc: 'a miniature distortion plasma cutter emitting warped reality waves, the cut line bends light around it, strange visual artifacts, for sectioning anomaly figures' },
-            { id: 'anomaly_sonic', name: 'Sonic Disruptor', emoji: '🔊', desc: 'a miniature sonic disruption cutting device using concentrated sound waves visible as shimmering rings, vibrating the anomaly figure apart at molecular level' }
+            { id: 'anomaly_chainsaw', name: 'Chainsaw Anomali', emoji: '🪚', desc: 'a miniature gas-powered chainsaw with a short guide bar, sharp cutting chain with micro teeth, pull-start recoil cord, compact engine housing, exhaust port, chain tensioner knob, designed for cutting through anomaly figurines' },
+            { id: 'anomaly_laser', name: 'Laser Anomali', emoji: '⚡', desc: 'a miniature CO2 laser cutting pen with a focused beam lens, compact power unit, on/off safety switch, precision nozzle tip, for slicing anomaly character figures with clean edges' },
+            { id: 'anomaly_blade', name: 'Blade Dimensi', emoji: '🌀', desc: 'a miniature oscillating multi-tool with a flat plunge-cut blade, quick-change blade mount, variable speed dial, ergonomic body, for precision cutting through anomaly figures' },
+            { id: 'anomaly_saw', name: 'Gergaji Portal', emoji: '🔮', desc: 'a miniature coping saw with a thin spiral blade held in a C-shaped steel frame, wooden handle, adjustable blade tension, for intricate cutting of anomaly character collectibles' },
+            { id: 'anomaly_plasma', name: 'Plasma Distorsi', emoji: '💜', desc: 'a miniature handheld plasma torch cutter with a copper nozzle, compressed air connection, trigger mechanism, ground clamp cable, for sectioning anomaly figures with melted edges' },
+            { id: 'anomaly_sonic', name: 'Sonic Disruptor', emoji: '🔊', desc: 'a miniature ultrasonic cutting knife with a vibrating titanium blade, piezoelectric transducer, power cord, frequency control dial, for cleanly cutting anomaly figures at high precision' }
         ]
     }
 };
@@ -450,27 +450,27 @@ const MATERIALS = {
     superhero: {
         label: 'Figur Superhero yang Dipotong',
         items: [
-            { id: 'spiderman', name: 'Spider-Man', emoji: '🕷️', desc: 'a tiny miniature Spider-Man action figure in the iconic red and blue suit with web pattern, being dramatically sliced in half revealing the plastic/PVC construction, articulation joints, and painted detail layers' },
-            { id: 'hulk', name: 'Hulk', emoji: '💪', desc: 'a tiny miniature Hulk action figure with massive green muscular body, torn purple pants, angry expression, being cut to reveal thick solid PVC body, heavy dense plastic construction, paint layers on green skin' },
-            { id: 'batman', name: 'Batman', emoji: '🦇', desc: 'a tiny miniature Batman action figure in dark gray and black suit, cape flowing, bat symbol on chest, being sectioned to show detailed interior, articulated joint mechanism, cape attachment point' },
-            { id: 'ironman', name: 'Iron Man', emoji: '🤖', desc: 'a tiny miniature Iron Man action figure in metallic red and gold Mark armor, arc reactor glowing on chest, being sliced to reveal complex layered armor detail, LED light mechanism, segmented armor plates' },
-            { id: 'superman', name: 'Superman', emoji: '🦸', desc: 'a tiny miniature Superman action figure with blue suit, red cape, S-shield on chest, being cut revealing solid muscular body construction, cape fabric attachment, painted details on the iconic costume' },
-            { id: 'captain', name: 'Captain America', emoji: '🛡️', desc: 'a tiny miniature Captain America action figure with star-spangled suit, vibranium shield accessory, being sectioned showing body articulation, shield attachment mechanism, detailed costume paint application' },
-            { id: 'thor', name: 'Thor', emoji: '⚡', desc: 'a tiny miniature Thor action figure with Asgardian armor, red cape, Mjolnir hammer accessory, being cut to show muscular build construction, cape attachment, hammer accessory mechanism' },
-            { id: 'wonder_woman', name: 'Wonder Woman', emoji: '👸', desc: 'a tiny miniature Wonder Woman action figure with Amazonian armor, lasso of truth accessory, tiara, being sliced revealing detailed body construction, articulation joints, golden lasso wire' }
+            { id: 'spiderman', name: 'Spider-Man', emoji: '🕷️', desc: 'a tiny miniature action figure of a hero wearing a full-body tight red and blue costume covered in black web patterns, large white angular eye lenses on the mask, crouching in a dynamic pose, being dramatically sliced in half revealing plastic/PVC construction, articulation joints, and painted detail layers' },
+            { id: 'hulk', name: 'Hulk', emoji: '💪', desc: 'a tiny miniature action figure of a giant green-skinned muscular man with an angry expression, messy black hair, wearing only torn purple shorts, massive fists clenched, being cut to reveal thick solid PVC body, heavy dense plastic construction, paint layers on green skin' },
+            { id: 'batman', name: 'Batman', emoji: '🦇', desc: 'a tiny miniature action figure of a dark knight hero in a dark gray and black armored suit, long pointed-ear cowl mask, flowing black cape, bat-shaped emblem on chest, utility belt, being sectioned to show detailed interior, articulated joint mechanism, cape attachment point' },
+            { id: 'ironman', name: 'Iron Man', emoji: '🤖', desc: 'a tiny miniature action figure of a hero in a sleek metallic red and gold high-tech power armor suit, glowing blue circular chest reactor, helmet with glowing eye slits, being sliced to reveal complex layered armor detail, LED light mechanism, segmented armor plates' },
+            { id: 'superman', name: 'Superman', emoji: '🦸', desc: 'a tiny miniature action figure of a hero wearing a blue bodysuit with red boots, red flowing cape, a large diamond-shaped S emblem on the chest, black curly hair with a signature curl on forehead, being cut revealing solid muscular body construction, cape fabric attachment' },
+            { id: 'captain', name: 'Captain America', emoji: '🛡️', desc: 'a tiny miniature action figure of a patriotic hero in a red-white-and-blue star-spangled suit, with a large round red-white-blue striped shield with a star in the center, winged helmet, being sectioned showing body articulation, shield attachment mechanism, detailed costume paint' },
+            { id: 'thor', name: 'Thor', emoji: '⚡', desc: 'a tiny miniature action figure of a muscular Norse warrior hero with long blonde hair, silver-scaled armor, flowing red cape, holding a short-handled square hammer weapon, being cut to show muscular build construction, cape attachment, hammer accessory mechanism' },
+            { id: 'wonder_woman', name: 'Wonder Woman', emoji: '👸', desc: 'a tiny miniature action figure of an Amazonian warrior woman in red-and-gold strapless armor, blue starry skirt, silver tiara with a star, silver arm bracers, holding a golden glowing lasso rope, being sliced revealing detailed body construction, articulation joints' }
         ]
     },
     anomaly: {
         label: 'Figur Anomali yang Dipotong',
         items: [
-            { id: 'tungtungtung', name: 'Tungtungtung Sahur', emoji: '🥁', desc: 'a tiny miniature Tungtungtung Sahur figurine — the iconic drumming anomaly character with elongated body, oversized drum sticks, eerie hollow eyes, being dramatically cut revealing dark mysterious void-like interior, strange glowing particles inside, distorted proportions' },
-            { id: 'udin', name: 'Udin Din Din Dun', emoji: '🎵', desc: 'a tiny miniature Udin Din Din Dun figurine — the rhythmic anomaly character with musical note-shaped head, vibrating body, being sliced to reveal pulsating sound wave patterns inside, resonating internal structure, musical symbols embedded in the material' },
-            { id: 'ballerina', name: 'Ballerina Cappuccina', emoji: '💃', desc: 'a tiny miniature Ballerina Cappuccina figurine — the spinning dancing anomaly with twisted limbs, pirouette pose frozen in place, being cut showing spiral internal structure, coffee-colored swirling patterns inside' },
-            { id: 'tralalero', name: 'Tralalero Tralala', emoji: '🎪', desc: 'a tiny miniature Tralalero Tralala figurine — the bizarre circus-themed anomaly with jester-like features, exaggerated proportions, being sectioned revealing chaotic colorful confetti-like interior, spring mechanisms' },
-            { id: 'bombardiro', name: 'Bombardiro Crocodilo', emoji: '🐊', desc: 'a tiny miniature Bombardiro Crocodilo figurine — the explosive crocodile anomaly hybrid with armored scales, being cut to show layered reptilian-mechanical interior, tiny bomb-shaped organs, metallic skeleton' },
-            { id: 'lirili', name: 'Lirili Larila', emoji: '🎶', desc: 'a tiny miniature Lirili Larila figurine — the melodic anomaly character with music-themed body, singing mouth, being sliced showing rainbow-colored musical interior, tiny note-shaped filling, harmonic wave patterns' },
-            { id: 'brr_brr', name: 'Brr Brr Patapim', emoji: '❄️', desc: 'a tiny miniature Brr Brr Patapim figurine — the freezing cold anomaly with icy crystalline body, shivering pose, being cut revealing frozen ice crystal interior, blue frost patterns, snowflake-shaped internal structure' },
-            { id: 'tung_tung', name: 'Tung Tung Tung Sahur', emoji: '👾', desc: 'a tiny miniature Tung Tung Tung Sahur figurine — the original sahur wake-up anomaly with elongated limbs, glowing eyes, being dramatically sectioned showing an otherworldly void-like dark interior with floating mysterious glowing orbs' }
+            { id: 'tung_tung', name: 'Tung Tung Tung Sahur', emoji: '👾', desc: 'a tiny miniature 3D CGI cartoon-style Tung Tung Tung Sahur figurine — the body is a tall vertical cylinder shape like a wooden log or barrel, entirely golden-orange wooden color with subtle vertical wood grain lines on the surface, the face is directly on the cylinder body: two large round dark brown eyes with white highlights, thick dark brown arched eyebrows, a tiny round button nose, and a wide friendly smile, the arms are very thin and noodle-like extending from the sides of the cylinder body, same orange wooden color, the legs are also thin and noodle-like with bare human-like feet, one hand is holding a large wooden baseball bat dragging on the ground, the entire character has a smooth shiny Pixar/3D-animated polished look, warm golden-orange tones throughout, being sliced in half to reveal solid smooth wooden cross-section interior with visible concentric tree ring growth patterns' },
+            { id: 'ballerina', name: 'Ballerina Cappuccina', emoji: '☕', desc: 'a tiny miniature 3D CGI cartoon-style Ballerina Cappuccina figurine — the body is a cute young ballerina girl with fair skin wearing a fluffy pink tutu ballet dress and pink ballet pointe shoes, her arms in graceful ballet pose, BUT her head is replaced by a large white ceramic cappuccino coffee cup with brown latte art foam swirl on top, the cup has two big cute round dark eyes with eyelashes, a small cute nose, and a sweet smile printed on the cup surface, the overall style is smooth glossy Pixar/3D-animated aesthetic, being sliced to reveal creamy coffee-colored liquid interior flowing out of the cup head and cotton stuffing in the ballerina body' },
+            { id: 'tralalero', name: 'Tralalero Tralala', emoji: '🦈', desc: 'a tiny miniature 3D CGI cartoon-style Tralalero Tralala figurine — the upper body is a big fat blue-gray great white shark with open mouth showing rows of sharp white teeth, small beady black eyes, dorsal fin on top, BUT instead of a tail fin, the shark body connects directly to two muscular tanned human male legs wearing white sports sneakers with laces, the shark walks upright on these human legs like a person, the legs are buff and athletic, the overall style is smooth glossy Pixar/3D-animated aesthetic with absurd humor, being cut in half at the connection point between shark body and human legs showing the bizarre hybrid anatomy' },
+            { id: 'bombardiro', name: 'Bombardiro Crocodilo', emoji: '🐊', desc: 'a tiny miniature 3D CGI cartoon-style Bombardiro Crocodilo figurine — a dark green crocodile/alligator body with textured scales and bumpy armored skin, BUT it has mechanical airplane bomber modifications: a large spinning gray airplane propeller mounted on the tip of its snout/nose, two fixed military aircraft wings extending from both sides of its body like a WW2 bomber plane, the tail is like an airplane tail fin, small dark eyes, powerful jaw with teeth visible, the overall style is smooth glossy Pixar/3D-animated aesthetic, being sliced to reveal green reptilian flesh mixed with mechanical airplane engine parts, gears, and propeller mechanisms inside' },
+            { id: 'la_vaca', name: 'La Vaca Saturno', emoji: '🐄', desc: 'a tiny miniature 3D CGI cartoon-style La Vaca Saturno figurine — a classic black and white spotted dairy cow with horns and a neutral calm cow expression, BUT the cow is floating/sitting inside a large metallic silver flying saucer UFO ring that orbits around its midsection like the rings of planet Saturn, the cow body pokes out from the top and bottom of the disc, the UFO ring has small lights and sci-fi details, the overall style is smooth glossy Pixar/3D-animated aesthetic, being sliced to show cow interior on one side and alien UFO technology with glowing circuits on the other side' },
+            { id: 'cappuccino', name: 'Cappuccino Assassino', emoji: '☕', desc: 'a tiny miniature 3D CGI cartoon-style Cappuccino Assassino figurine — a brown paper/cardboard takeaway coffee cup character standing upright, the cup has a Naruto-style black ninja headband (hitai-ate) with a metal plate tied around the cup body, two big round white eyes with dark pupils on the cup surface, the cup has a white plastic lid on top like a hat, the legs are dark metallic robotic/mechanical legs with joints and pistons giving it a cyborg ninja look, the overall style is smooth glossy Pixar/3D-animated aesthetic, being sectioned to reveal warm brown coffee liquid splashing out and tiny mechanical robot parts inside the legs' },
+            { id: 'capybara', name: 'Capybara Samurai', emoji: '⚔️', desc: 'a tiny miniature 3D CGI cartoon-style Capybara Samurai figurine — a round chubby brown capybara (large rodent) with its signature calm unbothered zen facial expression, small round ears, dark beady eyes, blunt snout, light brown/tan belly, BUT it is standing on its hind legs in a samurai warrior stance, each front paw gripping a long gleaming silver katana samurai sword, serious warrior pose despite the adorable face, the overall style is smooth glossy Pixar/3D-animated aesthetic, being sliced to reveal fluffy soft brown fur layers and a tiny brave warrior heart inside' },
+            { id: 'udin', name: 'Udin Din Din Dun', emoji: '🎵', desc: 'a tiny miniature 3D CGI cartoon-style Udin Din Din Dun figurine — a quirky short character with an oversized round head shaped like a traditional drum (bedug/kentongan), warm brown wooden color with drumhead membrane on top, big expressive cartoon eyes, wide cheerful mouth, small stubby body and limbs, the character appears to be vibrating or bouncing with musical energy, tiny musical notes floating around it, the overall style is smooth glossy Pixar/3D-animated aesthetic, being sliced to reveal hollow drum interior with resonating sound wave ripple patterns and tiny musical note particles inside' }
         ]
     }
 };
@@ -503,6 +503,131 @@ const ATMOSPHERE = [
 ];
 
 // ==========================================
+// REALISTIC TOOL SOUNDS
+// ==========================================
+const TOOL_SOUNDS = {
+    // Wood cutting tools
+    chainsaw: 'loud aggressive two-stroke gasoline engine revving and roaring, sharp rattling chain teeth biting into wood, wood cracking and splintering, exhaust popping',
+    circular_saw: 'high-pitched electric motor whine spinning up, loud buzzing saw blade cutting through wood, sawdust spraying, blade humming at full speed',
+    jigsaw: 'rapid reciprocating buzzing vibration, rhythmic up-down blade chattering through material, electric motor humming, slight wood cracking',
+    band_saw: 'continuous low humming of a long looping blade, steady smooth cutting sound, quiet electric motor drone, gentle wood feeding noise',
+    table_saw: 'powerful electric motor spinning a large blade at high RPM, loud sustained buzzing whine, wood being pushed through with crackling resistance',
+    router: 'very high-pitched screaming spindle rotation, aggressive routing sound as bit carves through wood, fine dust spraying, loud sustained whine',
+
+    // Metal cutting tools
+    angle_grinder: 'extremely loud high-pitched grinding whine, sharp metal-on-metal screeching, abrasive disc spinning at high speed, metallic ringing',
+    plasma_cutter: 'sharp electrical crackling and hissing of ionized gas arc, compressed air whooshing, sizzling of molten metal, intermittent popping',
+    band_saw_metal: 'slow steady metallic scraping of blade teeth against metal, coolant dripping, low motor hum, rhythmic cutting pace',
+    cut_off_saw: 'loud abrasive disc screaming through metal, high-pitched metallic shrieking, motor straining under load, metallic ringing on contact',
+    tin_snips: 'sharp metallic snipping and clicking, sheet metal flexing and pinging, crisp clean cutting clicks, spring mechanism snapping',
+    nibbler: 'rapid mechanical punching and clicking, fast rhythmic stamping of the die mechanism, sheet metal vibrating, motor buzzing',
+
+    // Welding tools
+    mig_welder: 'steady crackling and sizzling of wire arc, continuous buzzing hum, wire feed motor whirring, molten metal popping and spattering',
+    tig_welder: 'smooth sustained electrical humming arc, gentle sizzling, gas flowing with a soft hiss, precise quiet crackling of the tungsten tip',
+    arc_welder: 'loud sharp electrical crackling and snapping, electrode sizzling against metal, intense buzzing arc sound, molten spatter popping',
+    welding_torch: 'steady roaring flame with a soft hissing of mixed gases, torch flame adjusting with whooshing, metal heating with gentle ticking',
+    soldering_iron: 'quiet gentle sizzling as solder melts, faint hissing of flux vaporizing, soft bubbling of molten solder, subtle ticking',
+    spot_welder: 'short sharp electrical zapping bursts, rapid clicking of electrode arms squeezing, brief intense buzzing on each weld spot',
+
+    // Drilling tools
+    impact_drill: 'loud hammering percussion combined with drill spinning, rapid rat-tat-tat impact mechanism, aggressive vibrating motor, material crumbling',
+    cordless_drill: 'smooth electric motor whirring, drill bit spinning with a rising pitch, chuck clicking, gentle humming at variable speeds',
+    drill_press: 'steady smooth drilling hum, consistent motor drone, handle lever creaking, metal shavings curling away with a quiet scraping',
+    core_drill: 'deep rumbling motor with heavy vibration, diamond bit grinding against hard material, water splashing as coolant flows, sustained drone',
+    rotary_hammer: 'aggressive hammering percussion with deep thumping, powerful vibration, concrete crumbling and dust spraying, motor straining',
+    dremel: 'very high-pitched whining buzz of a small fast motor, light grinding or cutting sound, pitch changing with pressure, fine vibration',
+
+    // Hand tools
+    hammer: 'sharp metallic clang on impact, ringing echo of steel head hitting nail, wood thudding as nail drives in, handle vibration',
+    wrench: 'metallic clicking and ratcheting, bolt creaking as it tightens, steel-on-steel contact sounds, quiet mechanical precision',
+    pliers: 'metallic gripping and squeezing clicks, wire snapping, spring mechanism tension, pivot joint creaking',
+    screwdriver: 'quiet turning and threading of screw, screw head clicking into slot, gentle twisting friction, wood or metal accepting the screw',
+    tape_measure: 'blade extending with a smooth sliding hiss, spring-loaded retraction snap and rapid clicking, blade lock clicking',
+    level: 'quiet placement sound, bubble liquid settling with a faint sloshing, aluminum body tapping on surface',
+
+    // Food cutting tools
+    chef_knife: 'clean sharp chopping impact on cutting board, crisp slicing through food, blade rocking on wooden board, food fibers separating',
+    bread_knife: 'gentle back-and-forth sawing through crusty bread, crust crackling and crunching, serrated blade rasping, crumbs falling',
+    cleaver: 'heavy powerful thwack of thick blade hitting cutting board, bone cracking, meat splitting, deep impactful chopping sound',
+    kitchen_scissors: 'sharp metallic snipping clicks, blades sliding against each other, spring tension clicking, clean cutting action',
+    pizza_cutter: 'rolling wheel gliding through cheese and dough, crust crunching, cheese stretching and pulling, smooth rolling action',
+    food_processor: 'electric motor whirring up to speed, blades chopping rapidly, food being pulverized, lid vibrating, rhythmic pulsing',
+
+    // Fruit cutting tools
+    fruit_knife: 'gentle slicing through soft fruit flesh, juice squishing, thin blade gliding, fruit skin popping as blade penetrates',
+    peeler: 'light scraping of blade against fruit skin, thin peel curling away, gentle rasping sound, rhythmic peeling strokes',
+    melon_baller: 'soft scooping sound in fruit flesh, juice dripping, round scoop carving through melon, gentle pressing',
+    apple_corer: 'crunching through apple flesh, core cracking, blade pushing through with resistance, apple splitting apart',
+    pineapple_corer: 'twisting scraping through pineapple flesh, fibrous material separating, juice flowing, spiral blade grinding',
+    mango_slicer: 'blade pressing through mango flesh, pit resisting and cracking, juice squishing out, fruit splitting',
+
+    // Vegetable cutting tools
+    nakiri: 'clean precise chopping on cutting board, crisp vegetable fibers snapping, flat blade making full contact, rapid rhythmic chopping',
+    mandoline: 'rapid sliding scraping across sharp blade, vegetable slicing into uniform pieces, guard clicking, steady rhythmic motion',
+    herb_scissors: 'multiple blades snipping simultaneously, herbs being minced with rapid clicks, parallel blades sliding, fresh crunch',
+    julienne_peeler: 'fine scraping teeth creating thin strips, vegetable fibers shredding, light rasping strokes, matchstick pieces falling',
+    chopper: 'push-down mechanism clicking with spring action, grid blades crunching through vegetable, container thudding, mechanical snap',
+    santoku: 'smooth rocking chop on cutting board, clean slicing through vegetables, blade tapping board, crisp precise cutting',
+
+    // Drinks / bottle cutting tools
+    bottle_cutter: 'glass scoring with a sharp scratching sound, scoring wheel rolling with high-pitched scraping, glass clicking as it rotates',
+    glass_cutter: 'high-pitched scratching of diamond tip on glass surface, thin glass cracking along score line, crisp snapping',
+    wire_saw: 'thin wire rasping back and forth against glass, gritty abrasive grinding, glass dust scraping, steady sawing rhythm',
+    rotary_glass: 'high-speed rotary tool buzzing, diamond disc grinding against glass, fine glass dust spraying, motor whining',
+    bottle_breaker: 'scoring wheel clicking and scratching, glass snapping cleanly along score line, crisp cracking sound',
+    heat_cutter: 'nichrome wire humming with electrical current, material sizzling on contact, faint burning smell crackling, quiet buzzing',
+
+    // Shoe cutting tools
+    leather_knife: 'sharp blade slicing through thick leather, leather fibers separating with a quiet tearing, blade scraping on cutting mat',
+    shoe_scissors: 'heavy shears crunching through leather and rubber, thick material compressing and snapping, powerful snipping',
+    rotary_cutter: 'circular blade rolling through fabric and leather, smooth cutting glide, blade clicking in safety guard, fabric tearing',
+    hot_knife_shoe: 'heated blade sizzling through synthetic material, plastic melting with a hissing sound, faint chemical smell crackling',
+    band_knife_shoe: 'continuous blade humming through leather, motor droning, material feeding through steadily, smooth splitting sound',
+    die_cutter: 'hydraulic press hissing and thumping, sharp die stamping through material, clean punching impact, machine cycling',
+
+    // Toy car cutting tools
+    mini_saw: 'fine-toothed blade rasping through plastic, quiet back-and-forth sawing, plastic cracking, tiny precise strokes',
+    dremel_toy: 'high-pitched rotary tool whining, cutting disc grinding through die-cast metal, tiny metal sparks ticking, motor buzzing',
+    plastic_cutter: 'scribing tool scratching along plastic surface, scored plastic snapping cleanly, clicking and cracking',
+    hot_wire_toy: 'heated wire humming softly, plastic melting with a quiet sizzling, material separating smoothly, faint buzzing',
+    hacksaw_mini: 'fine metal saw teeth rasping against die-cast metal, rhythmic back-forth scraping, metal filings dropping, blade singing',
+    cutting_pliers: 'sharp snipping click of hardened steel jaws, plastic sprue snapping, spring mechanism clicking, clean cut pop',
+
+    // Bus Tayo cutting tools
+    tayo_saw: 'fine saw teeth rasping through toy plastic, back-and-forth sawing motion, plastic cracking and separating, gentle cutting',
+    tayo_dremel: 'high-speed rotary buzz cutting through plastic, motor whining at high RPM, plastic shavings spraying, precision grinding',
+    tayo_snips: 'sharp precision snipping clicks, thin plastic popping as cut, spring-loaded mechanism clicking, clean separation',
+    tayo_blade: 'sharp hobby blade slicing through plastic shell, clean cutting through thin material, blade tip scraping, precise scoring',
+    tayo_wire: 'heated nichrome wire humming, plastic melting and sizzling on contact, smooth continuous cutting, quiet electrical buzz',
+    tayo_laser: 'focused laser beam with a subtle high-frequency humming, material vaporizing with tiny crackling pops, fan cooling whirring',
+
+    // Sprunki doll cutting tools
+    sprunki_scissors: 'fabric scissors snipping through plush material, cotton stuffing puffing out, thread snapping, fabric tearing gently',
+    sprunki_knife: 'craft blade slicing through seam stitching, fabric separating, stuffing cotton poofing out, precise quiet cutting',
+    sprunki_rotary: 'circular rotary blade rolling through fabric layers, motor buzzing softly, plush material separating, smooth gliding',
+    sprunki_seam: 'tiny hook blade popping individual stitches, thread snapping one by one, quiet picking sounds, seam opening gradually',
+    sprunki_laser: 'laser humming with precision focus, fabric edges singeing with faint crackling, material vaporizing cleanly, fan whirring',
+    sprunki_hot: 'heated blade sizzling through synthetic plush, material edges melting and sealing, quiet hissing, fabric separating',
+
+    // Superhero figure cutting tools
+    laser_sword: 'thin saw blade rasping back and forth through hard plastic, precise strokes, plastic cracking, blade scraping cleanly',
+    plasma_blade: 'plasma torch hissing sharply, compressed air rushing, plastic melting and sizzling, brief crackling on contact, steady hiss',
+    power_saw_hero: 'electric circular saw whining at high speed, plastic and rubber being cut with a buzzing grind, motor revving',
+    diamond_blade: 'diamond disc grinding with high-pitched whine, hard material being abraded, fine dust spraying, steady motor hum',
+    ultra_cutter: 'high-frequency ultrasonic vibration humming, almost silent cutting through material, faint electronic tone, clean separation',
+    hero_guillotine: 'lever handle creaking, blade dropping with a sharp metallic thunk, clean slice through material, crisp cutting impact',
+
+    // Anomaly figure cutting tools
+    anomaly_chainsaw: 'two-stroke engine sputtering to life, chain rattling and buzzing at high speed, material cracking under the blade, engine revving',
+    anomaly_laser: 'focused CO2 laser humming steadily, material vaporizing with tiny popping sounds, cooling fan whirring, precise quiet operation',
+    anomaly_blade: 'oscillating blade vibrating rapidly with a buzzing hum, material being cut with quick vibration, motor oscillating rhythmically',
+    anomaly_saw: 'thin coping saw blade rasping back and forth, frame flexing slightly, material cracking along cut line, quiet manual sawing',
+    anomaly_plasma: 'plasma arc hissing and crackling, compressed air rushing through nozzle, molten material sizzling, sharp electrical buzzing',
+    anomaly_sonic: 'high-frequency ultrasonic blade humming at near-silent pitch, material cleanly separating, faint electronic whine, precision vibration'
+};
+
+// ==========================================
 // STATE
 // ==========================================
 let selectedCategory = null;
@@ -515,6 +640,7 @@ let selectedMaterial = null;
 document.addEventListener('DOMContentLoaded', () => {
     initParticles();
     initCategoryCards();
+    initRefImageToggle();
 });
 
 function initParticles() {
@@ -543,6 +669,14 @@ function initCategoryCards() {
                 selectCategory(card);
             }
         });
+    });
+}
+
+function initRefImageToggle() {
+    const toggle = document.getElementById('refImageToggle');
+    const options = document.getElementById('refImageOptions');
+    toggle.addEventListener('change', () => {
+        options.style.display = toggle.checked ? 'block' : 'none';
     });
 }
 
@@ -723,7 +857,34 @@ function buildPrompt(tool, bg, lighting, hand, glove, brand, detail, condition) 
             anomaly: 'actively cutting through'
         };
         const verb = actionVerbs[selectedCategory] || 'working on';
-        materialLine = `\n\nThe miniature tool is ${verb} ${selectedMaterial.desc}. IMPORTANT: both the tool AND the material/object are miniature-sized, proportionally scaled to each other — they are equally tiny, creating a complete miniature diorama scene. The interaction between the tool and the material is realistic \u2014 showing contact point details, material deformation, tiny debris particles, and action-specific effects (micro sparks, fine sawdust, tiny shavings, wisps of smoke, or faint heat glow as appropriate), all at miniature scale.`;
+        materialLine = `\n\nThe miniature tool is ${verb} ${selectedMaterial.desc}. IMPORTANT: both the tool AND the material/object are miniature-sized, proportionally scaled to each other — they are equally tiny, creating a complete miniature diorama scene. The interaction between the tool and the material is realistic \u2014 showing contact point details, material deformation, tiny debris particles, and natural residue appropriate to the cutting process (fine dust, small shavings, material chips), all at miniature scale.`;
+    }
+
+    // Reference image instructions
+    let refImageLine = '';
+    const refToggle = document.getElementById('refImageToggle');
+    if (refToggle && refToggle.checked) {
+        const refDesc = document.getElementById('refImageDesc').value.trim();
+        const refStrength = document.getElementById('refStrengthSelect').value;
+
+        const strengthInstructions = {
+            strict: 'CRITICAL — You MUST follow the uploaded reference image EXACTLY. Match the same composition, camera angle, colors, lighting, hand position, tool placement, and background as shown in the reference image. Do NOT deviate from the reference image in any way. The output must look like a direct continuation or animated version of the reference frame. Maintain 100% visual consistency with the reference image throughout the entire video.',
+            moderate: 'IMPORTANT — Follow the uploaded reference image closely as a visual guide. Maintain the same general composition, tool appearance, hand position, and scene atmosphere shown in the reference. Minor natural variations are acceptable (slight camera movement, subtle lighting shifts) but the core visual identity must remain consistent with the reference image.',
+            loose: 'Use the uploaded reference image as inspiration for the overall mood, style, and visual direction. The output should share a similar aesthetic and feel with the reference image, but creative variations in composition, angle, and details are welcome.'
+        };
+
+        refImageLine = `\n\nREFERENCE IMAGE INSTRUCTIONS: ${strengthInstructions[refStrength]}`;
+
+        if (refDesc) {
+            refImageLine += `\n\nReference image description: The uploaded reference image shows: ${refDesc}. The generated video MUST visually match this reference — maintaining the same tool, hand, object, background, and overall scene composition as described.`;
+        }
+    }
+
+    // Realistic tool sound description
+    let soundLine = '';
+    const toolSound = TOOL_SOUNDS[tool.id];
+    if (toolSound) {
+        soundLine = `\n\nAudio/Sound: The scene has realistic ambient sound — ${toolSound}. The sound is authentic and matches the real tool perfectly, creating an immersive experience.`;
     }
 
     const prompt = `Ultra-realistic photograph of ${toolDesc}, ${brandInfo.colors}, ${CONDITIONS[condition]}. The tool itself shows realistic signs of workshop use \u2014 minor scuffs, dust, and work residue on its surface.
@@ -736,7 +897,7 @@ Lighting: ${LIGHTING[lighting]}.
 
 Camera & Detail: ${DETAIL_LEVELS[detail]}, ${atmosphere}.
 
-Additional realism details: ${extraDetail}. ${extraDetail2}. ${handRealism}
+Additional realism details: ${extraDetail}. ${extraDetail2}. ${handRealism}${soundLine}${refImageLine}
 
 Style: Ultra photorealistic, 8K resolution, physically-based rendering, ray-traced global illumination, cinematic depth of field, professional product photography meets macro photography, the miniature tool is an exact scaled-down replica of the real thing with every functional part perfectly reproduced at tiny scale.
 
