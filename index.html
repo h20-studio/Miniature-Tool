@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- MAINTENANCE MODE: Uncomment baris di bawah untuk aktifkan maintenance -->
+    <!-- <meta http-equiv="refresh" content="0; url=maintenance.html"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miniature Tool Prompt Generator | Ultra Realistic</title>
     <meta name="description"
@@ -124,6 +126,36 @@
                     <div class="category-desc">Tungtungtung, Udin, Bombardiro</div>
                     <div class="card-glow"></div>
                 </div>
+                <div class="category-card" data-category="squishy" tabindex="0">
+                    <div class="category-icon">🧽</div>
+                    <div class="category-name">Potong Squishy</div>
+                    <div class="category-desc">Stress Ball, Slime, Orbeez</div>
+                    <div class="card-glow"></div>
+                </div>
+                <div class="category-card" data-category="ball" tabindex="0">
+                    <div class="category-icon">⚽</div>
+                    <div class="category-name">Potong Bola</div>
+                    <div class="category-desc">Sepak, Basket, Tenis, Golf</div>
+                    <div class="card-glow"></div>
+                </div>
+                <div class="category-card" data-category="candy" tabindex="0">
+                    <div class="category-icon">🍬</div>
+                    <div class="category-name">Potong Permen & Kue</div>
+                    <div class="category-desc">Gummy Bear, Cokelat, Lollipop</div>
+                    <div class="card-glow"></div>
+                </div>
+                <div class="category-card" data-category="soap" tabindex="0">
+                    <div class="category-icon">🧼</div>
+                    <div class="category-name">Potong Sabun (ASMR)</div>
+                    <div class="category-desc">Sabun Warna, Bath Bomb, Kristal</div>
+                    <div class="card-glow"></div>
+                </div>
+                <div class="category-card" data-category="toytren" tabindex="0">
+                    <div class="category-icon">🎮</div>
+                    <div class="category-name">Potong Mainan Trending</div>
+                    <div class="category-desc">Pop It, Skibidi, Among Us</div>
+                    <div class="card-glow"></div>
+                </div>
             </div>
         </section>
 
@@ -143,6 +175,26 @@
                 Objek yang Dikerjakan
             </h2>
             <div class="tool-grid" id="materialGrid"></div>
+        </section>
+
+        <!-- Tree Position (Wood category only) -->
+        <section class="section" id="treePositionSection" style="display:none;">
+            <h2 class="section-title">
+                <span class="section-icon">🌳</span>
+                Posisi Pohon
+            </h2>
+            <div class="options-grid">
+                <div class="option-group">
+                    <label class="option-label">🪵 Kondisi Pohon saat Dipotong</label>
+                    <select id="treePositionSelect" class="option-select">
+                        <option value="standing">🌲 Pohon Berdiri di Tanah (Ada Efek Jatuh)</option>
+                        <option value="fallen">🪵 Pohon Sudah Tumbang di Tanah</option>
+                        <option value="branch">🌿 Dahan / Ranting Pohon (Ada Efek Jatuh)</option>
+                        <option value="stump">🪓 Potongan Batang / Tunggul</option>
+                        <option value="floating">🌊 Batang Mengapung di Sungai (Ada Efek Splash)</option>
+                    </select>
+                </div>
+            </div>
         </section>
 
         <!-- Customization Options -->
