@@ -23,6 +23,7 @@ const TOOLS = {
         name: 'Potong Besi',
         icon: '⚙️',
         tools: [
+            { id: 'chainsaw_metal', name: 'Chainsaw', emoji: '🪚', desc: 'a miniature chainsaw with a reinforced carbide-tipped chain, heavy-duty orange and gray body, powerful motor housing, pull-start cord, safety chain brake, designed for cutting through metal pipes and iron bars' },
             { id: 'angle_grinder', name: 'Angle Grinder', emoji: '💿', desc: 'a miniature angle grinder with a thin cutting disc, cylindrical motor body, side handle, safety guard over the disc, trigger lock button, sparking contact point' },
             { id: 'plasma_cutter', name: 'Plasma Cutter', emoji: '⚡', desc: 'a miniature plasma cutter torch with a pointed copper nozzle tip, cable attached, trigger mechanism, ceramic shield cup, glowing plasma arc effect at the tip' },
             { id: 'metal_bandsaw', name: 'Metal Band Saw', emoji: '🔲', desc: 'a miniature metal cutting band saw with a bi-metal blade, cast iron frame, vice clamp, coolant port, adjustable blade guide' },
@@ -71,6 +72,7 @@ const TOOLS = {
         name: 'Potong Makanan',
         icon: '🍕',
         tools: [
+            { id: 'chainsaw_food', name: 'Chainsaw', emoji: '🪚', desc: 'a miniature chainsaw with a small guide bar and sharp chain teeth, orange and white body, compact motor housing, pull-start cord, being used to dramatically slice through food items with exaggerated power' },
             { id: 'chef_knife', name: 'Pisau Chef', emoji: '🔪', desc: 'a miniature chef knife with a razor-sharp German steel blade, full tang construction, triple-riveted ergonomic handle, visible Damascus pattern on the blade surface' },
             { id: 'bread_knife', name: 'Pisau Roti', emoji: '🍞', desc: 'a miniature serrated bread knife with a long scalloped-edge blade, wooden handle with brass rivets, fine serrated teeth visible along the cutting edge' },
             { id: 'cleaver', name: 'Pisau Daging', emoji: '🥩', desc: 'a miniature meat cleaver with a heavy rectangular stainless steel blade, thick spine for chopping power, wooden handle, visible weight and heft in the design' },
@@ -83,6 +85,7 @@ const TOOLS = {
         name: 'Potong Buah',
         icon: '🍉',
         tools: [
+            { id: 'chainsaw_fruit', name: 'Chainsaw', emoji: '🪚', desc: 'a miniature chainsaw with sharp micro chain teeth on a small guide bar, bright orange body, compact engine, pull-start cord, being used to dramatically slice through fruits with satisfying cross-sections' },
             { id: 'fruit_knife', name: 'Pisau Buah', emoji: '🔪', desc: 'a miniature fruit knife with a thin curved paring blade, sharp pointed tip, colorful ergonomic handle, lightweight and precise cutting tool for delicate fruits' },
             { id: 'peeler', name: 'Pengupas Buah', emoji: '🥝', desc: 'a miniature Y-shaped vegetable peeler with a sharp swivel blade, stainless steel construction, rubber-grip handle, ultra-thin peeling capability' },
             { id: 'melon_baller', name: 'Melon Baller', emoji: '🍈', desc: 'a miniature dual-sided melon baller with two different sized scooping spheres, long thin handle, polished stainless steel, sharp cutting edges on the bowl' },
@@ -95,6 +98,7 @@ const TOOLS = {
         name: 'Potong Sayuran',
         icon: '🥬',
         tools: [
+            { id: 'chainsaw_veg', name: 'Chainsaw', emoji: '🪚', desc: 'a miniature chainsaw with rattling chain teeth, orange and white compact body, pull-start mechanism, exhaust port, being used to dramatically chop through vegetables with over-the-top power' },
             { id: 'nakiri', name: 'Pisau Nakiri', emoji: '🔪', desc: 'a miniature Japanese Nakiri vegetable knife with a flat rectangular blade, thin edge for precise vegetable cutting, wooden magnolia handle, beautiful Damascus steel pattern' },
             { id: 'mandoline', name: 'Mandoline Slicer', emoji: '📏', desc: 'a miniature mandoline slicer with an adjustable blade platform, julienne attachment, hand guard, stainless steel frame, folding legs for stability' },
             { id: 'herb_scissors', name: 'Gunting Herbal', emoji: '🌿', desc: 'miniature 5-blade herb scissors with multiple parallel blades for fine chopping, comfortable grip handles, stainless steel multi-blade construction' },
@@ -107,6 +111,7 @@ const TOOLS = {
         name: 'Potong Botol',
         icon: '🍶',
         tools: [
+            { id: 'chainsaw_bottle', name: 'Chainsaw', emoji: '🪚', desc: 'a miniature chainsaw with sharp chain teeth wrapped around a guide bar, orange and white body, pull-start cord, compact motor, being used to dramatically cut through glass and plastic bottles' },
             { id: 'bottle_cutter', name: 'Bottle Cutter', emoji: '🔄', desc: 'a miniature bottle cutting jig with a scoring wheel, adjustable guide rails, rotating platform, sharp carbide scoring tip, precision alignment mechanism' },
             { id: 'glass_cutter', name: 'Diamond Glass Cutter', emoji: '💎', desc: 'a miniature diamond-tipped glass cutter with a pencil-style body, diamond chip cutting point, oil reservoir, scored line guide, precision grip' },
             { id: 'wire_saw', name: 'Wire Saw', emoji: '〰️', desc: 'a miniature diamond wire saw with a thin abrasive wire, two ring handles, flexible cutting line capable of cutting through glass and ceramic materials' },
@@ -119,6 +124,7 @@ const TOOLS = {
         name: 'Potong Sepatu',
         icon: '👟',
         tools: [
+            { id: 'chainsaw_shoe', name: 'Chainsaw', emoji: '🪚', desc: 'a miniature chainsaw with micro chain teeth on a short guide bar, orange body, compact motor housing, pull-start cord, being used to dramatically slice through shoes revealing internal layers and construction' },
             { id: 'leather_knife', name: 'Pisau Kulit', emoji: '🔪', desc: 'a miniature leather cutting skiving knife with an angled razor blade, wooden handle, ultra-sharp edge for precise leather and rubber sole cutting' },
             { id: 'shoe_scissors', name: 'Gunting Sepatu', emoji: '✂️', desc: 'miniature heavy-duty shears with thick reinforced blades designed for cutting through leather, rubber, and fabric shoe materials, spring handle mechanism' },
             { id: 'rotary_cutter', name: 'Rotary Cutter', emoji: '🔴', desc: 'a miniature rotary fabric and leather cutter with a sharp circular blade, safety guard, ergonomic handle, blade lock, perfect for cutting shoe materials' },
@@ -131,6 +137,7 @@ const TOOLS = {
         name: 'Potong Mobil-Mobilan',
         icon: '🚗',
         tools: [
+            { id: 'chainsaw_toycar', name: 'Chainsaw', emoji: '🪚', desc: 'a miniature chainsaw with sharp chain teeth, orange and white body, compact engine housing, pull-start cord, chain brake, being used to dramatically cut through toy car models revealing die-cast metal and plastic internals' },
             { id: 'mini_saw', name: 'Gergaji Mini', emoji: '🪚', desc: 'a miniature hobby razor saw with ultra-fine teeth, thin kerf blade, ergonomic handle, designed for precise cutting of plastic and die-cast toy car models' },
             { id: 'dremel_toy', name: 'Dremel Cutting', emoji: '🌀', desc: 'a miniature Dremel rotary tool with a thin reinforced cutting disc, variable speed, perfect for sectioning die-cast metal and plastic toy cars' },
             { id: 'plastic_cutter', name: 'Plastic Cutter', emoji: '📐', desc: 'a miniature plastic scribing and cutting tool with a hooked blade, straight edge guide, for scoring and snapping plastic toy car body panels' },
@@ -143,6 +150,7 @@ const TOOLS = {
         name: 'Potong Bus Tayo',
         icon: '🚌',
         tools: [
+            { id: 'chainsaw_tayo', name: 'Chainsaw', emoji: '🪚', desc: 'a miniature chainsaw with rattling chain teeth on a guide bar, orange and white body, pull-start cord, compact two-stroke engine, being used to dramatically slice through Bus Tayo toy bus plastic body' },
             { id: 'tayo_saw', name: 'Gergaji Mainan', emoji: '🪚', desc: 'a miniature fine-tooth hobby saw with a razor-thin blade, designed for cutting through the iconic blue plastic body of Bus Tayo toy models' },
             { id: 'tayo_dremel', name: 'Dremel Tayo', emoji: '🌀', desc: 'a miniature rotary tool with a diamond-coated cutting wheel, precision speed control, for sectioning Bus Tayo plastic bus body with smooth edges' },
             { id: 'tayo_snips', name: 'Plastic Snips', emoji: '✂️', desc: 'miniature precision plastic cutting snips with fine pointed tips, spring mechanism, for carefully cutting around Bus Tayo features and windows' },
@@ -155,6 +163,7 @@ const TOOLS = {
         name: 'Potong Boneka Sprunki',
         icon: '🧸',
         tools: [
+            { id: 'chainsaw_sprunki', name: 'Chainsaw', emoji: '🪚', desc: 'a miniature chainsaw with sharp chain teeth, orange and white body, compact motor, pull-start cord, being used to dramatically slice through Sprunki plush doll body revealing cotton stuffing and fabric layers inside' },
             { id: 'sprunki_scissors', name: 'Gunting Jahit', emoji: '✂️', desc: 'miniature fabric scissors with sharp pointed blades, for cutting through Sprunki doll plush fabric body, felt material, and stuffing with precision' },
             { id: 'sprunki_knife', name: 'Craft Knife', emoji: '🔪', desc: 'a miniature precision craft knife with a replaceable blade, for carefully slicing open Sprunki doll seams and revealing the colorful cotton stuffing inside' },
             { id: 'sprunki_rotary', name: 'Rotary Cutter', emoji: '🔴', desc: 'a miniature rotary fabric cutter with a circular blade, safety guard, for smoothly cutting through Sprunki plush doll fabric layers' },
@@ -164,15 +173,16 @@ const TOOLS = {
         ]
     },
     superhero: {
-        name: 'Potong Superhero',
+        name: 'Miniatur Superhero',
         icon: '🦸',
         tools: [
-            { id: 'laser_sword', name: 'Laser Sword', emoji: '⚔️', desc: 'a miniature precision hobby saw shaped like a futuristic sword hilt, with a thin replaceable razor blade, metallic silver and black handle grip, for cleanly slicing through collectible action figures' },
-            { id: 'plasma_blade', name: 'Plasma Blade', emoji: '⚡', desc: 'a miniature industrial plasma cutting pen with a fine ceramic nozzle tip, compact gas canister, trigger button, sci-fi styled handle, for precision cutting collectible figurines' },
-            { id: 'power_saw_hero', name: 'Power Saw Mini', emoji: '🪚', desc: 'a miniature high-speed circular saw with reinforced blade, designed for sectioning through detailed collectible action figure plastic and rubber materials' },
-            { id: 'diamond_blade', name: 'Diamond Blade', emoji: '💎', desc: 'a miniature diamond-encrusted cutting disc with ultra-hard edge, precision arbor mount, for cleanly slicing through premium collectible figures' },
-            { id: 'ultra_cutter', name: 'Ultra Cutter', emoji: '🔴', desc: 'a miniature ultrasonic cutting tool using high-frequency vibrations, creates impossibly clean cuts through collectible figure materials without melting' },
-            { id: 'hero_guillotine', name: 'Guillotine Cutter', emoji: '⬇️', desc: 'a miniature precision guillotine-style paper and plastic cutter with a lever-action blade, safety guard, base plate with alignment grid' }
+            { id: 'chainsaw_hero', name: 'Chainsaw', emoji: '🪚', desc: 'a miniature chainsaw with detailed chain teeth on a guide bar, orange and white body, compact engine, pull-start cord, exhaust port, being used to dramatically cut through superhero action figure revealing internal plastic construction and articulation joints' },
+            { id: 'laser_sword', name: 'Hobby Saw', emoji: '🪚', desc: 'a miniature fine-tooth hobby razor saw with ultra-thin kerf blade, ergonomic plastic handle, replaceable blade mechanism, designed for detailed model building and figurine assembly work' },
+            { id: 'plasma_blade', name: 'Detail Knife', emoji: '🔪', desc: 'a miniature precision craft knife with a #11 pointed scalpel blade, aluminum barrel handle, blade cap, snap-off mechanism, ideal for trimming mold lines on collectible model kits' },
+            { id: 'power_saw_hero', name: 'Rotary Tool', emoji: '🌀', desc: 'a miniature Dremel-style rotary tool with a small sanding drum attachment, variable speed dial, slim cylindrical body, collet nut, ventilation slots, for smoothing and shaping model figurine parts' },
+            { id: 'diamond_blade', name: 'Precision File', emoji: '💎', desc: 'a miniature diamond-coated needle file set with fine grit surface, slim tapered profile, comfortable rubber handle, for refining details and smoothing seams on collectible figurines' },
+            { id: 'ultra_cutter', name: 'Sanding Stick', emoji: '📐', desc: 'a miniature flexible sanding stick with fine-grit abrasive surface on a foam backing pad, dual-sided for different grits, for smoothing and finishing model figure surfaces' },
+            { id: 'hero_guillotine', name: 'Sprue Cutter', emoji: '✂️', desc: 'miniature precision flush-cut sprue nippers with hardened steel jaws, spring-loaded handles, for cleanly removing model kit parts from plastic sprues and runners' }
         ]
     },
     anomaly: {
@@ -185,6 +195,66 @@ const TOOLS = {
             { id: 'anomaly_saw', name: 'Gergaji Portal', emoji: '🔮', desc: 'a miniature coping saw with a thin spiral blade held in a C-shaped steel frame, wooden handle, adjustable blade tension, for intricate cutting of anomaly character collectibles' },
             { id: 'anomaly_plasma', name: 'Plasma Distorsi', emoji: '💜', desc: 'a miniature handheld plasma torch cutter with a copper nozzle, compressed air connection, trigger mechanism, ground clamp cable, for sectioning anomaly figures with melted edges' },
             { id: 'anomaly_sonic', name: 'Sonic Disruptor', emoji: '🔊', desc: 'a miniature ultrasonic cutting knife with a vibrating titanium blade, piezoelectric transducer, power cord, frequency control dial, for cleanly cutting anomaly figures at high precision' }
+        ]
+    },
+    squishy: {
+        name: 'Potong Squishy',
+        icon: '🧽',
+        tools: [
+            { id: 'chainsaw_squishy', name: 'Chainsaw', emoji: '🪚', desc: 'a miniature chainsaw with sharp chain teeth, orange and white body, pull-start cord, being used to dramatically slice through squishy toys, foam exploding and deforming under the chain' },
+            { id: 'squishy_knife', name: 'Pisau Tajam', emoji: '🔪', desc: 'a miniature razor-sharp knife with a polished steel blade, wooden handle, for slicing through squishy foam toys with smooth satisfying cuts revealing colorful interior' },
+            { id: 'squishy_scissors', name: 'Gunting Besar', emoji: '✂️', desc: 'miniature heavy-duty scissors with thick blades, for cutting through squishy stress toys, foam compressing and springing back around the blade edges' },
+            { id: 'squishy_rotary', name: 'Rotary Cutter', emoji: '🔴', desc: 'a miniature rotary cutting tool with a sharp circular blade, for rolling through squishy material creating smooth clean cuts through foam layers' },
+            { id: 'squishy_hot', name: 'Hot Knife', emoji: '🔥', desc: 'a miniature heated blade tool that melts through squishy foam material, creating smooth sealed edges, foam sizzling on contact with the hot metal' },
+            { id: 'squishy_laser', name: 'Laser Cutter', emoji: '⚡', desc: 'a miniature laser cutting tool with a focused beam, for precisely cutting through squishy toys with clean vaporized edges, foam material separating cleanly' }
+        ]
+    },
+    ball: {
+        name: 'Potong Bola',
+        icon: '⚽',
+        tools: [
+            { id: 'chainsaw_ball', name: 'Chainsaw', emoji: '🪚', desc: 'a miniature chainsaw with rattling chain teeth, orange body, being used to dramatically slice through sports balls, rubber and leather tearing apart, inner bladder and layers exposed' },
+            { id: 'ball_knife', name: 'Pisau Tajam', emoji: '🔪', desc: 'a miniature heavy-duty utility knife with a thick sharp blade, for slicing through tough ball materials like leather, rubber, and synthetic layers' },
+            { id: 'ball_saw', name: 'Gergaji Besi', emoji: '🪚', desc: 'a miniature hacksaw with fine teeth, for sawing through hard sports balls revealing interior construction, bladder and padding layers' },
+            { id: 'ball_dremel', name: 'Dremel Cutting', emoji: '🌀', desc: 'a miniature rotary tool with a cutting disc, for sectioning sports balls with precision, cutting through multiple material layers cleanly' },
+            { id: 'ball_scissors', name: 'Gunting Heavy-Duty', emoji: '✂️', desc: 'miniature industrial-grade scissors with reinforced blades, for cutting through thick ball materials including leather panels and rubber cores' },
+            { id: 'ball_hot', name: 'Hot Wire Cutter', emoji: '🔥', desc: 'a miniature heated wire cutter for melting through synthetic ball materials, creating smooth cross-sections revealing internal layered construction' }
+        ]
+    },
+    candy: {
+        name: 'Potong Permen & Kue',
+        icon: '🍬',
+        tools: [
+            { id: 'chainsaw_candy', name: 'Chainsaw', emoji: '🪚', desc: 'a miniature chainsaw roaring with chain teeth spinning, being used to dramatically slice through giant candy and sweets, sugar shattering, chocolate cracking, colorful candy pieces flying' },
+            { id: 'candy_knife', name: 'Pisau Chef', emoji: '🔪', desc: 'a miniature chef knife with a sharp steel blade, for cleanly cutting through candy bars, chocolates, and sweets revealing colorful layered interiors' },
+            { id: 'candy_cleaver', name: 'Pisau Daging', emoji: '🥩', desc: 'a miniature heavy cleaver for dramatically chopping through giant candy, hard sugar shells cracking, chocolate layers splitting apart' },
+            { id: 'candy_scissors', name: 'Gunting Dapur', emoji: '✂️', desc: 'miniature kitchen scissors for snipping through gummy candies, soft nougat, and chewy sweets with satisfying clean cuts' },
+            { id: 'candy_wire', name: 'Wire Cutter', emoji: '〰️', desc: 'a miniature fine wire cheese/candy cutter for slicing through soft chocolate truffles, fudge, and layered candy with perfectly smooth cross-sections' },
+            { id: 'candy_saw', name: 'Gergaji Kue', emoji: '🪚', desc: 'a miniature serrated cake saw for cutting through layered cakes, pastries, and baked sweets revealing cream filling and decoration layers' }
+        ]
+    },
+    soap: {
+        name: 'Potong Sabun (ASMR)',
+        icon: '🧼',
+        tools: [
+            { id: 'chainsaw_soap', name: 'Chainsaw', emoji: '🪚', desc: 'a miniature chainsaw with chain teeth buzzing, being used to dramatically slice through colorful bars of soap, soap shavings and chunks flying everywhere, satisfying destruction' },
+            { id: 'soap_knife', name: 'Pisau Tajam', emoji: '🔪', desc: 'a miniature very sharp thin blade knife for making precise satisfying cuts through bars of soap, creating perfect thin slices with smooth surfaces' },
+            { id: 'soap_peeler', name: 'Pengupas Sabun', emoji: '🥝', desc: 'a miniature Y-peeler used to create long thin satisfying curls and shavings from soap bars, peeling layers in ASMR fashion' },
+            { id: 'soap_chopper', name: 'Soap Chopper', emoji: '🔲', desc: 'a miniature grid press chopper for pressing down through soap bars, creating satisfying grid-pattern cube pieces, soap crumbling into perfect squares' },
+            { id: 'soap_cutter', name: 'Multi-Blade Cutter', emoji: '📏', desc: 'a miniature multi-blade wire cutter with parallel wires, for slicing soap bars into multiple uniform thin slices simultaneously' },
+            { id: 'soap_scraper', name: 'Soap Scraper', emoji: '🪒', desc: 'a miniature flat scraping blade for shaving thin satisfying curls and flakes from the surface of colorful soap bars, ASMR sensory experience' }
+        ]
+    },
+    toytren: {
+        name: 'Potong Mainan Trending',
+        icon: '🎮',
+        tools: [
+            { id: 'chainsaw_toytren', name: 'Chainsaw', emoji: '🪚', desc: 'a miniature chainsaw with sharp chain teeth, orange body, pull-start cord, being used to dramatically slice through trending toys, plastic cracking, foam and rubber internals revealed' },
+            { id: 'toytren_knife', name: 'Craft Knife', emoji: '🔪', desc: 'a miniature precision craft knife with a sharp pointed blade, for carefully cutting through trending toy figures and plastic toys revealing internal construction' },
+            { id: 'toytren_saw', name: 'Gergaji Mini', emoji: '🪚', desc: 'a miniature fine-tooth hobby saw for cutting through plastic and rubber trending toys, revealing hollow interiors and mechanisms inside' },
+            { id: 'toytren_dremel', name: 'Dremel Rotary', emoji: '🌀', desc: 'a miniature rotary tool with cutting disc for sectioning trending toys cleanly, motor buzzing, plastic shavings spraying' },
+            { id: 'toytren_scissors', name: 'Gunting Tajam', emoji: '✂️', desc: 'miniature sharp scissors for cutting through soft rubber and silicone trending toys like Pop It, stress toys, and fidget toys' },
+            { id: 'toytren_hot', name: 'Hot Knife', emoji: '🔥', desc: 'a miniature heated blade for melting through plastic and silicone trending toys, material sizzling, clean thermal cuts through colorful toy bodies' }
         ]
     }
 };
@@ -245,6 +315,37 @@ const CONDITIONS = {
 };
 
 // ==========================================
+// TREE POSITIONS (Wood category only)
+// ==========================================
+const TREE_POSITIONS = {
+    standing: {
+        name: 'Pohon Berdiri di Tanah',
+        desc: 'The tree/plant is standing upright rooted in the ground on natural soil terrain with grass and small plants around the base. The chainsaw is actively cutting through the trunk horizontally.',
+        falling_effect: 'DRAMATIC FALLING EFFECT: As the chainsaw cuts through, the tree begins to tilt and fall to one side in dramatic slow-motion — the trunk cracking and splitting at the cut point, wood fibers tearing apart, the heavy canopy swaying and accelerating downward with gravity, leaves and small branches shaking violently, dust and wood chips flying from the impact zone, the ground trembling slightly as the massive tree crashes down, creating a cloud of dust and scattered debris on impact.'
+    },
+    fallen: {
+        name: 'Pohon Sudah Tumbang',
+        desc: 'The tree has already fallen and is lying horizontally on the ground, resting on the forest floor surrounded by scattered leaves and broken branches. The trunk is being cut/sectioned into logs by the tool, sawdust accumulating on the ground beneath the cut point.',
+        falling_effect: ''
+    },
+    branch: {
+        name: 'Dahan / Ranting Pohon',
+        desc: 'The tool is cutting a thick branch or limb still attached to a standing tree, working at an elevated position on the tree.',
+        falling_effect: 'BRANCH FALLING EFFECT: As the branch is cut through, it detaches and drops downward — the heavy limb swinging on the last wood fibers before snapping free, leaves rustling loudly, the branch tumbling and spinning as it falls through the air, crashing through lower branches on the way down, bouncing on the ground with a heavy thud, leaves scattering everywhere on impact.'
+    },
+    stump: {
+        name: 'Potongan Batang / Tunggul',
+        desc: 'The tool is cutting through a tree stump or a section of log that is placed on the ground or a wooden chopping block, like splitting firewood or sectioning a log.',
+        falling_effect: ''
+    },
+    floating: {
+        name: 'Batang Mengapung di Sungai',
+        desc: 'The tree trunk or log is partially submerged and floating in a river or stream, with water flowing around it. The tool is cutting the log while it rests in shallow water.',
+        falling_effect: 'WATER SPLASH EFFECT: As the cut completes, the separated log section rolls and splashes into the water — creating ripples and small waves, water spraying upward from the impact, the log bobbing and floating downstream, wet sawdust and wood chips scattered across the water surface.'
+    }
+};
+
+// ==========================================
 // GLOVE TYPES
 // ==========================================
 const GLOVES = {
@@ -281,14 +382,49 @@ const MATERIALS = {
     wood: {
         label: 'Jenis Kayu / Objek',
         items: [
+            // Kayu klasik
             { id: 'oak_log', name: 'Batang Kayu Oak', emoji: '🪵', desc: 'a tiny miniature oak tree log with rough bark texture, visible microscopic growth rings on the cut surface, minuscule mossy patches, small enough to fit on a fingertip' },
             { id: 'pine_plank', name: 'Papan Kayu Pinus', emoji: '🪵', desc: 'a tiny miniature pine wood plank with visible fine grain pattern, natural yellowish tone, freshly sanded surface, scaled down to match the miniature tool' },
-            { id: 'bamboo', name: 'Bambu', emoji: '🎋', desc: 'a tiny miniature green bamboo pole with visible nodes and hollow interior, smooth outer skin, proportionally small like a toothpick-sized bamboo' },
-            { id: 'plywood', name: 'Plywood / Triplek', emoji: '📋', desc: 'a tiny miniature sheet of layered plywood showing multiple hair-thin wood veneer layers on the edge, flat smooth surface, coin-sized' },
             { id: 'mahogany', name: 'Kayu Mahoni', emoji: '🟤', desc: 'a tiny miniature dark reddish-brown mahogany timber block with beautiful deep grain, polished finish, premium hardwood scaled to dollhouse size' },
             { id: 'teak', name: 'Kayu Jati', emoji: '🪵', desc: 'a tiny miniature piece of teak wood with golden-brown color, tight grain pattern, natural oil sheen, scaled down proportionally to the miniature tool' },
+            { id: 'ebony', name: 'Kayu Eboni', emoji: '🖤', desc: 'a tiny miniature jet-black ebony wood block with extremely dense fine grain, mirror-like polished surface, one of the heaviest and most luxurious woods, deep dark color throughout the cross-section' },
+            { id: 'rosewood', name: 'Kayu Rosewood', emoji: '🟤', desc: 'a tiny miniature rosewood piece with rich dark reddish-purple color, beautiful swirling grain patterns, faint sweet fragrance implied, premium exotic wood with oily surface sheen' },
+            { id: 'sandalwood', name: 'Kayu Cendana', emoji: '🪵', desc: 'a tiny miniature sandalwood log with warm golden-brown heartwood, creamy white sapwood outer ring, aromatic fragrant wood, smooth fine grain visible at cross-section' },
+            { id: 'cedar', name: 'Kayu Cedar', emoji: '🌲', desc: 'a tiny miniature cedar wood piece with warm reddish-brown color, aromatic texture, natural insect-repelling properties implied, straight grain with fine lines, lightweight feel' },
+            { id: 'birch', name: 'Kayu Birch', emoji: '🌳', desc: 'a tiny miniature birch log with distinctive white papery bark peeling in thin layers, pale cream-colored wood underneath, fine even grain visible at the cut surface' },
+            { id: 'walnut', name: 'Kayu Walnut', emoji: '🟤', desc: 'a tiny miniature walnut wood piece with rich chocolate brown heartwood, lighter sapwood contrast, beautiful wavy grain patterns, premium furniture-grade hardwood' },
+            { id: 'maple', name: 'Kayu Maple', emoji: '🍁', desc: 'a tiny miniature maple wood block with light creamy white color, very fine uniform grain, birds-eye figure pattern visible, hard dense wood with satin-like surface' },
+            // Pohon tropis
+            { id: 'coconut_tree', name: 'Pohon Kelapa', emoji: '🌴', desc: 'a tiny miniature coconut palm tree trunk with fibrous brown bark texture, being cut to reveal the dense fibrous interior without growth rings, scattered vascular bundles visible in cross-section, tropical palm wood' },
+            { id: 'banana_tree', name: 'Pohon Pisang', emoji: '🍌', desc: 'a tiny miniature banana tree trunk with layered green pseudostem, being sliced to reveal concentric leaf sheath layers inside, moist watery interior, bright green outer layer peeling' },
+            { id: 'bamboo', name: 'Bambu', emoji: '🎋', desc: 'a tiny miniature thick green bamboo culm with visible nodes and hollow interior, smooth outer skin, being cut to reveal the hollow tube structure with fibrous wall, proportionally scaled down' },
+            { id: 'mango_tree', name: 'Pohon Mangga', emoji: '🥭', desc: 'a tiny miniature mango tree trunk with rough dark gray-brown bark, being cut to reveal yellowish-orange heartwood with interlocking grain, dense tropical hardwood, tiny mango fruits on branches' },
+            { id: 'rubber_tree', name: 'Pohon Karet', emoji: '🌳', desc: 'a tiny miniature rubber tree trunk with smooth gray bark, being sliced to reveal white milky latex sap oozing from the cut surface, light-colored wood, dripping sticky white rubber sap' },
+            { id: 'jackfruit_tree', name: 'Pohon Nangka', emoji: '🌳', desc: 'a tiny miniature jackfruit tree trunk with rough dark bark, being cut to reveal bright golden-yellow heartwood that deepens with exposure, sticky sap oozing, beautiful warm-toned wood grain' },
+            { id: 'durian_tree', name: 'Pohon Durian', emoji: '🌳', desc: 'a tiny miniature durian tree trunk with rough reddish-brown bark, being cut to reveal light pinkish-brown wood with straight grain, tall tropical tree trunk, tiny durian fruits hanging from branches' },
+            { id: 'papaya_tree', name: 'Pohon Pepaya', emoji: '🌴', desc: 'a tiny miniature papaya tree trunk with soft green hollow stem, being sliced to reveal the hollow interior with white pith walls, very soft and spongy wood-like material, large tropical leaves on top' },
+            { id: 'rambutan_tree', name: 'Pohon Rambutan', emoji: '🌳', desc: 'a tiny miniature rambutan tree trunk with rough brown bark, being cut to reveal dense reddish wood grain, tiny clusters of hairy red rambutan fruits hanging from branches, tropical Southeast Asian tree' },
+            // Pohon buah
+            { id: 'apple_tree', name: 'Pohon Apel', emoji: '🍎', desc: 'a tiny miniature apple tree trunk with grayish-brown scaly bark, being cut to reveal hard dense pinkish-brown heartwood with fine grain, tiny red apples hanging from delicate branches' },
+            { id: 'cherry_tree', name: 'Pohon Sakura', emoji: '🌸', desc: 'a tiny miniature cherry blossom tree trunk with smooth reddish-brown bark with horizontal lenticels, being cut to reveal warm pinkish-red heartwood, tiny pink sakura flowers blooming on branches' },
+            { id: 'orange_tree', name: 'Pohon Jeruk', emoji: '🍊', desc: 'a tiny miniature orange tree trunk with thorny branches, light brown bark, being cut to reveal pale yellow hardwood with citrus-scented grain, tiny orange fruits and white blossoms on branches' },
+            { id: 'avocado_tree', name: 'Pohon Alpukat', emoji: '🥑', desc: 'a tiny miniature avocado tree trunk with smooth grayish-green bark, being cut to reveal soft light-colored wood with fine grain, large green leaves, tiny avocado fruits hanging from branches' },
+            // Pohon besar & hutan
+            { id: 'eucalyptus', name: 'Pohon Eucalyptus', emoji: '🌿', desc: 'a tiny miniature eucalyptus tree trunk with distinctive peeling bark revealing smooth multi-colored layers underneath (cream, green, orange), aromatic wood, being cut to reveal pale interlocked grain' },
+            { id: 'willow', name: 'Pohon Willow', emoji: '🌳', desc: 'a tiny miniature weeping willow tree trunk with deeply furrowed gray-brown bark, being cut to reveal lightweight pale wood, drooping cascade of thin green branches hanging gracefully' },
+            { id: 'banyan', name: 'Pohon Beringin', emoji: '🌳', desc: 'a tiny miniature banyan tree with massive trunk and aerial prop roots descending from branches, rough gray bark, being cut to reveal pale wood, iconic Indonesian shade tree' },
+            { id: 'acacia', name: 'Pohon Akasia', emoji: '🌳', desc: 'a tiny miniature acacia tree with flat-topped canopy shape, thorny branches, being cut to reveal dark reddish-brown heartwood with beautiful striped grain, savanna-style tree' },
+            { id: 'redwood', name: 'Pohon Redwood', emoji: '🌲', desc: 'a tiny miniature giant redwood tree trunk section with thick fibrous reddish bark, massive scale, being cut to reveal stunning deep red heartwood with straight even grain, ancient tree' },
+            { id: 'baobab', name: 'Pohon Baobab', emoji: '🌳', desc: 'a tiny miniature baobab tree with its iconic massive swollen trunk, smooth gray bark, being cut to reveal soft fibrous spongy interior that stores water, unique African tree with tiny branches on top' },
+            // Tanaman lain
+            { id: 'cactus', name: 'Kaktus Besar', emoji: '🌵', desc: 'a tiny miniature tall saguaro cactus with ribbed green body and sharp spines, being sliced to reveal watery gel-filled interior with fibrous ribs, succulent cross-section, desert plant' },
+            { id: 'tree_branch', name: 'Dahan Pohon', emoji: '🌿', desc: 'a tiny miniature thick tree branch with green bark, microscopic leaves sprouting, tiny sap droplet visible at cut point, being cut to reveal growth rings and inner bark layers' },
             { id: 'driftwood', name: 'Kayu Apung', emoji: '🌊', desc: 'a tiny miniature piece of weathered driftwood, bleached by sun and salt water, smooth organic shapes, pale gray tone, small enough to rest on a coin' },
-            { id: 'tree_branch', name: 'Dahan Pohon', emoji: '🌿', desc: 'a tiny miniature tree branch, green bark, microscopic leaves sprouting, tiny sap droplet visible at cut point, twig-sized' }
+            { id: 'plywood', name: 'Plywood / Triplek', emoji: '📋', desc: 'a tiny miniature sheet of layered plywood showing multiple hair-thin wood veneer layers on the edge, flat smooth surface, coin-sized' },
+            { id: 'sugar_palm', name: 'Pohon Aren', emoji: '🌴', desc: 'a tiny miniature sugar palm tree trunk with dark fibrous hairy bark covering, being cut to reveal dense dark brown wood with scattered vascular bundles, black palm fibers peeling from surface' },
+            { id: 'mangrove', name: 'Pohon Bakau', emoji: '🌳', desc: 'a tiny miniature mangrove tree with tangled aerial stilt roots emerging from water, being cut to reveal extremely hard dense dark wood, saltwater-tolerant coastal tree, barnacles on roots' },
+            { id: 'clove_tree', name: 'Pohon Cengkeh', emoji: '🌳', desc: 'a tiny miniature clove tree trunk with smooth gray bark, being cut to reveal aromatic light brown wood, tiny dried clove buds on branches, fragrant Indonesian spice tree' },
+            { id: 'sengon', name: 'Pohon Sengon', emoji: '🌳', desc: 'a tiny miniature sengon/albizia tree trunk with smooth white bark, being cut to reveal very soft light white wood with wide growth rings, fast-growing tropical tree commonly found in Indonesia' }
         ]
     },
     metal: {
@@ -366,7 +502,24 @@ const MATERIALS = {
             { id: 'dragon_fruit', name: 'Buah Naga', emoji: '🐉', desc: 'a tiny miniature dragon fruit sliced in half, striking white flesh with tiny black seeds, vivid pink outer skin with green-tipped scales, exotic tropical look' },
             { id: 'coconut', name: 'Kelapa', emoji: '🥥', desc: 'a tiny miniature coconut cracked open, white coconut meat lining the inside, brown hairy shell exterior, coconut water droplets visible' },
             { id: 'strawberry', name: 'Strawberry', emoji: '🍓', desc: 'a tiny miniature strawberry being sliced, vibrant red exterior with tiny seeds, lighter pink interior visible at the cut, green leafy cap on top' },
-            { id: 'durian', name: 'Durian', emoji: '🏆', desc: 'a tiny miniature durian with thorny spiky shell being cut open, creamy yellow custard-like flesh pods visible inside, king of fruits in miniature scale' }
+            { id: 'durian', name: 'Durian', emoji: '🏆', desc: 'a tiny miniature durian with thorny spiky shell being cut open, creamy yellow custard-like flesh pods visible inside, king of fruits in miniature scale' },
+            { id: 'tomato_fruit', name: 'Tomat', emoji: '🍅', desc: 'a tiny miniature ripe red tomato being sliced in half, juicy red flesh with seed chambers visible inside, glistening juice droplets, green stem cap on top, glossy smooth skin' },
+            { id: 'cucumber', name: 'Timun', emoji: '🥒', desc: 'a tiny miniature fresh green cucumber being sliced into rounds, crisp light green flesh with tiny white seeds arranged in a circle at the center, dark green skin with small bumps' },
+            { id: 'butternut_squash', name: 'Labu Kuning', emoji: '🎃', desc: 'a tiny miniature butternut squash with tan-orange skin being cut open, revealing vibrant deep orange flesh, seed cavity with flat oval seeds, smooth dense interior' },
+            { id: 'bell_pepper', name: 'Paprika', emoji: '🫑', desc: 'a tiny miniature colorful bell pepper being sliced in half, hollow interior with white ribs and tiny round seeds, thick crisp walls, glossy smooth skin in vibrant red/yellow/green' },
+            { id: 'eggplant_fruit', name: 'Terong', emoji: '🍆', desc: 'a tiny miniature glossy purple eggplant being sliced into rounds, creamy white spongy flesh with tiny seed pattern inside, smooth dark purple skin, green calyx cap on top' },
+            { id: 'avocado', name: 'Alpukat', emoji: '🥑', desc: 'a tiny miniature ripe avocado being cut in half, creamy green-yellow buttery flesh visible, large round brown pit in the center, dark green bumpy skin, smooth gradient flesh' },
+            { id: 'pumpkin_fruit', name: 'Labu', emoji: '🎃', desc: 'a tiny miniature round pumpkin being cut open, thick orange flesh walls, fibrous stringy interior with flat white seeds, deep ribbed exterior, classic pumpkin shape' },
+            { id: 'papaya', name: 'Pepaya', emoji: '🍈', desc: 'a tiny miniature ripe papaya being sliced in half lengthwise, vibrant orange-salmon flesh, cluster of round black seeds in the central cavity, thin green-yellow skin' },
+            { id: 'guava', name: 'Jambu Biji', emoji: '🍈', desc: 'a tiny miniature fresh guava being cut in half, pink flesh with numerous tiny hard seeds scattered throughout the center, light green bumpy outer skin, fragrant tropical fruit' },
+            { id: 'starfruit', name: 'Belimbing', emoji: '⭐', desc: 'a tiny miniature starfruit being sliced into cross-sections, revealing perfect five-pointed star shape, translucent yellow-green waxy flesh, thin brown seed lines along each ridge' },
+            { id: 'passion_fruit', name: 'Markisa', emoji: '💜', desc: 'a tiny miniature passion fruit being cut open, revealing bright orange-yellow pulp filled with dark seeds surrounded by translucent juice sacs, wrinkled purple-brown outer shell' },
+            { id: 'jackfruit', name: 'Nangka', emoji: '🟡', desc: 'a tiny miniature jackfruit being cut open, revealing yellow fleshy pods (bulbs) surrounding large seeds, sticky white latex sap oozing, bumpy green spiky thick rind exterior' },
+            { id: 'mangosteen', name: 'Manggis', emoji: '🟣', desc: 'a tiny miniature mangosteen being opened, thick dark purple rind cracking to reveal pure white segmented flesh inside, juicy translucent white segments, crown-like green calyx on top' },
+            { id: 'soursop', name: 'Sirsak', emoji: '💚', desc: 'a tiny miniature soursop being cut open, white fibrous creamy flesh with black seeds scattered throughout, soft spiny green skin exterior, sweet aromatic tropical fruit' },
+            { id: 'corn_fruit', name: 'Jagung', emoji: '🌽', desc: 'a tiny miniature ear of corn being sliced across, neat rows of plump yellow kernels in circular pattern visible at cross-section, green husk partially peeled back, golden silk threads' },
+            { id: 'cempedak', name: 'Cempedak', emoji: '🟠', desc: 'a tiny miniature cempedak being cut open, revealing bright orange-yellow fleshy segments similar to jackfruit but more aromatic, sticky latex sap, bumpy green-brown thick rind' },
+            { id: 'sawo', name: 'Sawo', emoji: '🤎', desc: 'a tiny miniature sapodilla (sawo) being sliced in half, revealing sweet grainy brown flesh with a sandy texture, glossy black flat seeds in the center, rough brown thin skin exterior' }
         ]
     },
     vegetables: {
@@ -379,7 +532,21 @@ const MATERIALS = {
             { id: 'chili', name: 'Cabai Merah', emoji: '🌶️', desc: 'a tiny miniature red chili pepper being sliced open, white seeds and ribs visible inside, glossy red skin, intense heat implied by its vibrant color' },
             { id: 'pumpkin', name: 'Labu', emoji: '🎃', desc: 'a tiny miniature orange pumpkin being cut open, fibrous interior with seeds visible, thick orange flesh walls, ribbed exterior surface' },
             { id: 'corn', name: 'Jagung', emoji: '🌽', desc: 'a tiny miniature ear of corn being sliced, rows of yellow kernels in neat lines, green husk partially peeled back, silk threads visible' },
-            { id: 'eggplant', name: 'Terong', emoji: '🍆', desc: 'a tiny miniature purple eggplant being sliced into rounds, creamy white flesh with tiny seed pattern inside, glossy dark purple skin, green calyx cap' }
+            { id: 'eggplant', name: 'Terong', emoji: '🍆', desc: 'a tiny miniature purple eggplant being sliced into rounds, creamy white flesh with tiny seed pattern inside, glossy dark purple skin, green calyx cap' },
+            { id: 'potato', name: 'Kentang', emoji: '🥔', desc: 'a tiny miniature potato being sliced in half, starchy white-yellow flesh inside, thin brown skin, visible starch granules at the cut surface, earthy root vegetable' },
+            { id: 'sweet_potato', name: 'Ubi Jalar', emoji: '🍠', desc: 'a tiny miniature sweet potato being cut open, vibrant orange flesh inside, reddish-purple skin exterior, moist starchy texture visible at the cross-section' },
+            { id: 'cassava', name: 'Singkong', emoji: '🥔', desc: 'a tiny miniature cassava root being sliced, pure white starchy flesh with a fibrous core line in the center, thick brown bark-like skin, waxy texture' },
+            { id: 'radish', name: 'Lobak', emoji: '🥕', desc: 'a tiny miniature white daikon radish being sliced into rounds, crisp translucent white flesh, smooth white skin, fresh and crunchy texture visible at the cut' },
+            { id: 'beetroot', name: 'Bit', emoji: '🟣', desc: 'a tiny miniature beetroot being cut in half, deep dark red-purple flesh with concentric ring patterns inside, dark red juice bleeding from the cut, leafy green top' },
+            { id: 'shallot', name: 'Bawang Merah', emoji: '🧅', desc: 'a tiny miniature red shallot being sliced, purple-red layers visible inside with white translucent rings, thin papery reddish-brown outer skin peeling' },
+            { id: 'garlic', name: 'Bawang Putih', emoji: '🧄', desc: 'a tiny miniature garlic bulb being cut in half, revealing individual white cloves arranged in a circle, papery white skin, pungent aroma implied, sticky juice on cut surface' },
+            { id: 'cucumber_veg', name: 'Mentimun', emoji: '🥒', desc: 'a tiny miniature fresh cucumber being sliced into thin rounds, crisp light green flesh with tiny white seeds in circular pattern, dark green skin with subtle ridges' },
+            { id: 'butternut_veg', name: 'Labu Kuning', emoji: '🎃', desc: 'a tiny miniature butternut squash being cut open, deep vibrant orange flesh, seed cavity with flat oval seeds clustered inside, smooth tan-orange skin exterior' },
+            { id: 'chayote', name: 'Labu Siam', emoji: '🥒', desc: 'a tiny miniature chayote squash being sliced in half, pale green translucent flesh with a single flat seed in the center, light green wrinkled skin, crisp watery texture' },
+            { id: 'bitter_gourd', name: 'Pare', emoji: '🥒', desc: 'a tiny miniature bitter gourd being cut open, revealing white pith interior with red-coated seeds, bumpy warty green skin exterior, hollow seed chamber visible' },
+            { id: 'bell_pepper_veg', name: 'Paprika', emoji: '🫑', desc: 'a tiny miniature bell pepper being sliced in half, hollow interior with white membrane ribs and tiny round seeds, thick crisp colorful walls in red/yellow/green' },
+            { id: 'long_bean', name: 'Kacang Panjang', emoji: '🫛', desc: 'a tiny miniature long bean being sliced, thin green pods revealing small round beans inside in a neat row, crisp snap at the cut, long slender green vegetable' },
+            { id: 'green_bean', name: 'Buncis', emoji: '🫛', desc: 'a tiny miniature green bean being snapped and sliced, crisp green pod with small white beans visible inside, fresh snap at the break point, tender young pods' }
         ]
     },
     drinks: {
@@ -392,7 +559,29 @@ const MATERIALS = {
             { id: 'wine', name: 'Botol Wine', emoji: '🍷', desc: 'a tiny miniature elegant wine bottle with a long neck, dark green glass, vintage label, deep red wine visible through the cut section, cork stopper' },
             { id: 'juice', name: 'Botol Jus', emoji: '🧃', desc: 'a tiny miniature juice bottle with a colorful label, transparent plastic showing bright orange/apple juice inside, screw cap, nutritional label visible' },
             { id: 'milk', name: 'Botol Susu', emoji: '🥛', desc: 'a tiny miniature milk bottle with white liquid visible inside, classic glass bottle design, cream layer visible at the top, foil cap, being cleanly sectioned' },
-            { id: 'energy_drink', name: 'Minuman Energi', emoji: '⚡', desc: 'a tiny miniature energy drink can with bold graphic design, metallic aluminum body being cut open, neon-colored liquid inside, pull-tab on top' }
+            { id: 'energy_drink', name: 'Minuman Energi', emoji: '⚡', desc: 'a tiny miniature energy drink can with bold graphic design, metallic aluminum body being cut open, neon-colored liquid inside, pull-tab on top' },
+            { id: 'teh_botol', name: 'Teh Botol Sosro', emoji: '🍵', desc: 'a tiny miniature iconic Teh Botol Sosro glass bottle with the classic brown tea color, red and yellow label with Sosro branding, being cut to reveal dark amber jasmine tea liquid inside' },
+            { id: 'sprite', name: 'Botol Sprite', emoji: '🥤', desc: 'a tiny miniature Sprite bottle with the distinctive green-tinted clear plastic, green and silver label, being cut to reveal crystal-clear lemon-lime carbonated liquid with fizzy bubbles inside' },
+            { id: 'pepsi', name: 'Botol Pepsi', emoji: '🥤', desc: 'a tiny miniature Pepsi bottle with the iconic red-white-blue circular logo, blue label design, being cut to reveal dark brown cola liquid with carbonation bubbles inside' },
+            { id: 'pocari', name: 'Pocari Sweat', emoji: '💧', desc: 'a tiny miniature Pocari Sweat bottle with the iconic blue and white label design, being cut to reveal slightly cloudy isotonic sports drink liquid inside, clear plastic bottle' },
+            { id: 'mizone', name: 'Mizone', emoji: '💧', desc: 'a tiny miniature Mizone isotonic drink bottle with colorful label, curved plastic bottle shape, being cut to reveal lightly colored vitamin-infused liquid inside' },
+            { id: 'le_minerale', name: 'Le Minerale', emoji: '💧', desc: 'a tiny miniature Le Minerale water bottle with the distinctive blue label and mountain logo, clear plastic bottle, being cut to reveal crystal-clear mineral water inside' },
+            { id: 'ades', name: 'Ades', emoji: '💧', desc: 'a tiny miniature Ades water bottle with green eco-friendly label design, clear crushable plastic bottle, being cut to reveal pure clear drinking water inside' },
+            { id: 'buavita', name: 'Buavita', emoji: '🧃', desc: 'a tiny miniature Buavita juice box with colorful fruit imagery on the packaging, tetra pak carton, being cut to reveal thick natural fruit juice inside, straw hole on top' },
+            { id: 'minute_maid', name: 'Minute Maid Pulpy Orange', emoji: '🍊', desc: 'a tiny miniature Minute Maid Pulpy Orange bottle with orange label and fruit imagery, being cut to reveal bright orange juice with visible real orange pulp bits floating inside' },
+            { id: 'floridina', name: 'Floridina', emoji: '🍊', desc: 'a tiny miniature Floridina orange juice bottle with tropical fruit label design, being cut to reveal orange citrus juice with real fruit pulp bits visible inside' },
+            { id: 'frestea', name: 'Frestea', emoji: '🍵', desc: 'a tiny miniature Frestea bottle with green tea label design, plastic bottle, being cut to reveal golden-amber tea liquid inside, refreshing Indonesian tea brand' },
+            { id: 'ichitan', name: 'Ichitan Thai Tea', emoji: '🍵', desc: 'a tiny miniature Ichitan Thai Tea bottle with distinctive gold and brown label, being cut to reveal rich creamy orange-brown Thai milk tea liquid inside' },
+            { id: 'nu_green_tea', name: 'Nu Green Tea', emoji: '🍵', desc: 'a tiny miniature Nu Green Tea bottle with green and white label, pet plastic bottle, being cut to reveal light golden-green natural green tea liquid inside' },
+            { id: 'yakult', name: 'Yakult', emoji: '🥛', desc: 'a tiny miniature iconic Yakult bottle with the small distinctive shape, red foil cap, white and red branding, being cut to reveal creamy white probiotic fermented milk drink inside' },
+            { id: 'vit_levite', name: 'Vit Levite', emoji: '💧', desc: 'a tiny miniature Vit Levite flavored water bottle with colorful fruit-themed label, being cut to reveal lightly tinted fruit-flavored water inside, slim bottle design' },
+            { id: 'hydro_coco', name: 'Hydro Coco', emoji: '🥥', desc: 'a tiny miniature Hydro Coco coconut water bottle with green and white tropical label design, being cut to reveal slightly cloudy natural coconut water inside' },
+            { id: 'tebs', name: 'Tebs Sparkling', emoji: '✨', desc: 'a tiny miniature Tebs sparkling tea can with silver and green design, aluminum can, being cut to reveal golden carbonated sparkling tea with fine bubbles inside' },
+            { id: 'bear_brand', name: 'Bear Brand Milk', emoji: '🐻', desc: 'a tiny miniature Bear Brand sterilized milk can with the iconic bear logo, gold and white design, aluminum can being cut to reveal pure white sterilized milk inside' },
+            { id: 'ultra_milk', name: 'Ultra Milk (botol)', emoji: '🥛', desc: 'a tiny miniature Ultra Milk bottle with colorful milk branding, UHT milk packaging, being cut to reveal creamy white fresh milk inside, various flavor variants' },
+            { id: 'good_day', name: 'Good Day Coffee (botol)', emoji: '☕', desc: 'a tiny miniature Good Day coffee bottle with brown and gold label design, glass bottle, being cut to reveal rich brown coffee milk blend inside with creamy swirl' },
+            { id: 'nescafe', name: 'Nescafé Coffee (botol)', emoji: '☕', desc: 'a tiny miniature Nescafé ready-to-drink coffee bottle with the iconic red logo, being cut to reveal dark brown smooth coffee liquid with a hint of cream inside' },
+            { id: 'pokka', name: 'Pokka Coffee', emoji: '☕', desc: 'a tiny miniature Pokka coffee can with the classic brown and gold Japanese-style design, aluminum can being cut to reveal rich dark brown premium coffee liquid inside' }
         ]
     },
     shoes: {
@@ -411,14 +600,34 @@ const MATERIALS = {
     toycar: {
         label: 'Mobil-Mobilan yang Dipotong',
         items: [
-            { id: 'hotwheels', name: 'Hot Wheels', emoji: '🏎️', desc: 'a tiny miniature Hot Wheels die-cast metal car with flame decals, chrome wheels, being cut in half revealing the zinc alloy body, plastic interior, metal axle pins, and wheel mechanism' },
+            { id: 'hotwheels', name: 'Hot Wheels', emoji: '🔥', desc: 'a tiny miniature Hot Wheels die-cast metal car with flame decals, chrome wheels, being cut in half revealing the zinc alloy body, plastic interior, metal axle pins, and wheel mechanism' },
             { id: 'tomica', name: 'Tomica', emoji: '🚗', desc: 'a tiny miniature Tomica die-cast car (Japanese model) with accurate real car proportions, opening doors, being sectioned to show metal body, detailed plastic interior, suspension mechanism' },
             { id: 'truck_mini', name: 'Truk Mini', emoji: '🚚', desc: 'a tiny miniature toy dump truck with tilting bed, chunky plastic body, being cut to reveal hollow interior, axle mechanism, simple wheel assembly' },
             { id: 'race_car', name: 'Mobil Balap', emoji: '🏁', desc: 'a tiny miniature Formula 1 toy race car with aerodynamic body, rear wing, being sliced to show sleek internal structure, tiny driver figure inside cockpit' },
             { id: 'suv_mini', name: 'SUV Mini', emoji: '🚙', desc: 'a tiny miniature toy SUV with roof rack, off-road tires, being cut open revealing rugged plastic body construction, spring suspension, four-wheel-drive axle system' },
             { id: 'sport_car', name: 'Mobil Sport', emoji: '🏎️', desc: 'a tiny miniature Lamborghini-style toy sports car with scissor doors, low profile body, being sectioned to reveal detailed interior, engine bay molding, die-cast metal chassis' },
             { id: 'classic_car', name: 'Mobil Klasik', emoji: '🚕', desc: 'a tiny miniature vintage VW Beetle toy car with rounded body, chrome bumpers, being cut to show retro interior design, simple mechanical construction, nostalgia charm' },
-            { id: 'bus_mini', name: 'Bus Mini', emoji: '🚌', desc: 'a tiny miniature double-decker toy bus with red London bus design, being sliced to reveal two-floor interior, tiny passenger seats, staircase between decks' }
+            { id: 'bus_mini', name: 'Bus Mini', emoji: '🚌', desc: 'a tiny miniature double-decker toy bus with red London bus design, being sliced to reveal two-floor interior, tiny passenger seats, staircase between decks' },
+            { id: 'excavator', name: 'Excavator', emoji: '⛏️', desc: 'a tiny miniature toy excavator with articulated boom arm, bucket with teeth, rotating cab on tracks, being cut to reveal hydraulic cylinder mechanism, track drive system, operator cab interior' },
+            { id: 'bulldozer', name: 'Bulldozer', emoji: '🚜', desc: 'a tiny miniature toy bulldozer with large front blade, crawler tracks, exhaust stack, being cut to reveal heavy-duty track mechanism, blade push frame construction, engine compartment' },
+            { id: 'dump_truck', name: 'Dump Truck', emoji: '🚛', desc: 'a tiny miniature toy dump truck with large tilting bed, massive off-road tires, being cut to reveal hydraulic tipping mechanism, heavy chassis frame, deep cargo bed interior' },
+            { id: 'wheel_loader', name: 'Wheel Loader', emoji: '🔄', desc: 'a tiny miniature toy wheel loader with large front bucket, articulated steering joint, massive rubber tires, being cut to reveal bucket linkage mechanism, articulation pivot, cab interior' },
+            { id: 'backhoe_loader', name: 'Backhoe Loader', emoji: '🦾', desc: 'a tiny miniature toy backhoe loader with front bucket and rear excavator arm, stabilizer legs, being cut to reveal dual-function hydraulic systems, swing mechanism, operator cab' },
+            { id: 'crane_truck', name: 'Crane Truck', emoji: '🏗️', desc: 'a tiny miniature toy crane truck with telescoping boom arm, outrigger stabilizers, cable winch, being cut to reveal boom extension mechanism, winch drum, counterweight system' },
+            { id: 'concrete_mixer', name: 'Truk Molen', emoji: '🌀', desc: 'a tiny miniature toy concrete mixer truck with rotating drum, spiral fins inside, discharge chute, being cut to reveal the spiral mixing blade interior, drum rotation mechanism, thick cement residue' },
+            { id: 'asphalt_paver', name: 'Asphalt Paver', emoji: '🛤️', desc: 'a tiny miniature toy asphalt paver with wide screed plate, hopper, conveyor system, being cut to reveal material feed mechanism, screed heating elements, tracked undercarriage' },
+            { id: 'road_roller', name: 'Road Roller', emoji: '🛞', desc: 'a tiny miniature toy road roller (vibro roller) with heavy steel drum, ROPS cab, being cut to reveal vibration mechanism inside the drum, counterweight system, hydraulic drive' },
+            { id: 'motor_grader', name: 'Motor Grader', emoji: '🔪', desc: 'a tiny miniature toy motor grader with long adjustable blade underneath, tandem rear axles, being cut to reveal blade angle adjustment mechanism, articulated frame, operator cab interior' },
+            { id: 'forklift', name: 'Forklift', emoji: '📦', desc: 'a tiny miniature toy forklift with lifting mast, fork tines, counterweight rear, being cut to reveal chain lift mechanism inside the mast, hydraulic cylinder, small engine compartment' },
+            { id: 'skid_steer', name: 'Skid Steer Loader', emoji: '🔲', desc: 'a tiny miniature toy skid steer loader with front bucket, compact body, being cut to reveal independent wheel drive mechanism, compact hydraulic system, tiny operator compartment' },
+            { id: 'compactor', name: 'Compactor', emoji: '⬇️', desc: 'a tiny miniature toy soil compactor with padfoot drum, enclosed cab, being cut to reveal heavy vibration mechanism inside drum, padfoot welded pattern, hydraulic drive system' },
+            { id: 'water_tank_truck', name: 'Truk Tangki Air', emoji: '💧', desc: 'a tiny miniature toy water tank truck with cylindrical tank, spray nozzles, being cut to reveal hollow tank interior with water baffles, pump mechanism, spray distribution system' },
+            { id: 'flatbed_truck', name: 'Flatbed Truck', emoji: '➖', desc: 'a tiny miniature toy flatbed truck with long flat cargo bed, stake sides, being cut to reveal steel frame chassis, suspension system, cargo tie-down anchor points' },
+            { id: 'crawler_crane', name: 'Crawler Crane', emoji: '🔺', desc: 'a tiny miniature toy crawler crane with lattice boom, heavy crawler tracks, cable system, being cut to reveal lattice boom pin connections, winch drum mechanism, counterweight stack' },
+            { id: 'mobile_crane', name: 'Mobile Crane', emoji: '🦺', desc: 'a tiny miniature toy mobile crane on wheeled chassis, telescoping boom, outriggers, being cut to reveal nested telescoping boom sections, slewing ring mechanism, operator cab' },
+            { id: 'drilling_truck', name: 'Truk Bor Tanah', emoji: '🔩', desc: 'a tiny miniature toy drilling machine truck with drill mast, auger bit, stabilizer jacks, being cut to reveal rotary drill mechanism, kelly bar system, mud pump internals' },
+            { id: 'concrete_pump', name: 'Concrete Pump Truck', emoji: '🧱', desc: 'a tiny miniature toy concrete pump truck with folding boom arm, hopper, being cut to reveal concrete pipeline running through boom sections, piston pump mechanism, valve system' },
+            { id: 'telehandler', name: 'Telehandler', emoji: '🔼', desc: 'a tiny miniature toy telehandler with telescoping boom, fork attachment, being cut to reveal boom extension cylinder, stabilizer mechanism, versatile attachment mounting plate' }
         ]
     },
     bustayo: {
@@ -448,16 +657,16 @@ const MATERIALS = {
         ]
     },
     superhero: {
-        label: 'Figur Superhero yang Dipotong',
+        label: 'Figur Superhero Miniatur',
         items: [
-            { id: 'spiderman', name: 'Spider-Man', emoji: '🕷️', desc: 'a tiny miniature action figure of a hero wearing a full-body tight red and blue costume covered in black web patterns, large white angular eye lenses on the mask, crouching in a dynamic pose, being dramatically sliced in half revealing plastic/PVC construction, articulation joints, and painted detail layers' },
-            { id: 'hulk', name: 'Hulk', emoji: '💪', desc: 'a tiny miniature action figure of a giant green-skinned muscular man with an angry expression, messy black hair, wearing only torn purple shorts, massive fists clenched, being cut to reveal thick solid PVC body, heavy dense plastic construction, paint layers on green skin' },
-            { id: 'batman', name: 'Batman', emoji: '🦇', desc: 'a tiny miniature action figure of a dark knight hero in a dark gray and black armored suit, long pointed-ear cowl mask, flowing black cape, bat-shaped emblem on chest, utility belt, being sectioned to show detailed interior, articulated joint mechanism, cape attachment point' },
-            { id: 'ironman', name: 'Iron Man', emoji: '🤖', desc: 'a tiny miniature action figure of a hero in a sleek metallic red and gold high-tech power armor suit, glowing blue circular chest reactor, helmet with glowing eye slits, being sliced to reveal complex layered armor detail, LED light mechanism, segmented armor plates' },
-            { id: 'superman', name: 'Superman', emoji: '🦸', desc: 'a tiny miniature action figure of a hero wearing a blue bodysuit with red boots, red flowing cape, a large diamond-shaped S emblem on the chest, black curly hair with a signature curl on forehead, being cut revealing solid muscular body construction, cape fabric attachment' },
-            { id: 'captain', name: 'Captain America', emoji: '🛡️', desc: 'a tiny miniature action figure of a patriotic hero in a red-white-and-blue star-spangled suit, with a large round red-white-blue striped shield with a star in the center, winged helmet, being sectioned showing body articulation, shield attachment mechanism, detailed costume paint' },
-            { id: 'thor', name: 'Thor', emoji: '⚡', desc: 'a tiny miniature action figure of a muscular Norse warrior hero with long blonde hair, silver-scaled armor, flowing red cape, holding a short-handled square hammer weapon, being cut to show muscular build construction, cape attachment, hammer accessory mechanism' },
-            { id: 'wonder_woman', name: 'Wonder Woman', emoji: '👸', desc: 'a tiny miniature action figure of an Amazonian warrior woman in red-and-gold strapless armor, blue starry skirt, silver tiara with a star, silver arm bracers, holding a golden glowing lasso rope, being sliced revealing detailed body construction, articulation joints' }
+            { id: 'spiderman', name: 'Red Web Hero', emoji: '🕷️', desc: 'a tiny miniature collectible cross-section display model of an action figure wearing a full-body tight red and blue costume covered in black web patterns, large white angular eye lenses on the mask, in a dynamic crouching pose — the figure is a factory-made cutaway display model showing the internal plastic/PVC construction layers, articulation ball joints visible inside, painted detail layers, like a museum exhibit piece' },
+            { id: 'hulk', name: 'Green Giant Hero', emoji: '💪', desc: 'a tiny miniature collectible cross-section display model of a giant green-skinned muscular action figure with an intense expression, messy black hair, wearing torn purple shorts, massive fists — the figure is a factory-made cutaway display showing thick solid PVC body construction, heavy dense plastic interior, multiple paint coating layers on the green skin surface' },
+            { id: 'batman', name: 'Dark Knight Hero', emoji: '🦇', desc: 'a tiny miniature collectible cross-section display model of an action figure in a dark gray and black armored suit, pointed-ear cowl mask, flowing black cape, bat-shaped emblem on chest, utility belt — the figure is a factory-made cutaway exhibit piece showing detailed interior structure, articulated joint mechanism, cape attachment point construction' },
+            { id: 'ironman', name: 'Red Gold Armor Hero', emoji: '🤖', desc: 'a tiny miniature collectible cross-section display model of an action figure in a sleek metallic red and gold high-tech armor suit, glowing blue circular chest piece, helmet with illuminated eye slits — the figure is a factory-made cutaway display revealing complex layered armor detail, tiny LED light mechanism, segmented armor plate construction' },
+            { id: 'superman', name: 'Blue Cape Hero', emoji: '🦸', desc: 'a tiny miniature collectible cross-section display model of an action figure wearing a blue bodysuit with red boots, red flowing cape, a large diamond-shaped emblem on the chest, black curly hair with a signature curl on forehead — the figure is a factory-made cutaway exhibit showing solid muscular body construction, internal skeleton frame, cape fabric attachment method' },
+            { id: 'captain', name: 'Star Shield Hero', emoji: '🛡️', desc: 'a tiny miniature collectible cross-section display model of a patriotic action figure in a red-white-and-blue star-spangled suit, with a large round striped shield with a star in the center, winged helmet — the figure is a factory-made cutaway display showing body articulation system, shield attachment mechanism, detailed costume paint layers' },
+            { id: 'thor', name: 'Thunder Warrior Hero', emoji: '⚡', desc: 'a tiny miniature collectible cross-section display model of a muscular Norse warrior action figure with long blonde hair, silver-scaled armor, flowing red cape, holding a short-handled square hammer accessory — the figure is a factory-made cutaway exhibit showing muscular build construction, cape attachment, hammer accessory socket mechanism' },
+            { id: 'wonder_woman', name: 'Amazon Warrior Hero', emoji: '👸', desc: 'a tiny miniature collectible cross-section display model of a warrior woman action figure in red-and-gold strapless armor, blue starry skirt, silver tiara with a star, silver arm bracers, holding a golden lasso accessory — the figure is a factory-made cutaway display showing detailed body construction, articulation joints, accessory attachment points' }
         ]
     },
     anomaly: {
@@ -471,6 +680,73 @@ const MATERIALS = {
             { id: 'cappuccino', name: 'Cappuccino Assassino', emoji: '☕', desc: 'a tiny miniature 3D CGI cartoon-style Cappuccino Assassino figurine — a brown paper/cardboard takeaway coffee cup character standing upright, the cup has a Naruto-style black ninja headband (hitai-ate) with a metal plate tied around the cup body, two big round white eyes with dark pupils on the cup surface, the cup has a white plastic lid on top like a hat, the legs are dark metallic robotic/mechanical legs with joints and pistons giving it a cyborg ninja look, the overall style is smooth glossy Pixar/3D-animated aesthetic, being sectioned to reveal warm brown coffee liquid splashing out and tiny mechanical robot parts inside the legs' },
             { id: 'capybara', name: 'Capybara Samurai', emoji: '⚔️', desc: 'a tiny miniature 3D CGI cartoon-style Capybara Samurai figurine — a round chubby brown capybara (large rodent) with its signature calm unbothered zen facial expression, small round ears, dark beady eyes, blunt snout, light brown/tan belly, BUT it is standing on its hind legs in a samurai warrior stance, each front paw gripping a long gleaming silver katana samurai sword, serious warrior pose despite the adorable face, the overall style is smooth glossy Pixar/3D-animated aesthetic, being sliced to reveal fluffy soft brown fur layers and a tiny brave warrior heart inside' },
             { id: 'udin', name: 'Udin Din Din Dun', emoji: '🎵', desc: 'a tiny miniature 3D CGI cartoon-style Udin Din Din Dun figurine — a quirky short character with an oversized round head shaped like a traditional drum (bedug/kentongan), warm brown wooden color with drumhead membrane on top, big expressive cartoon eyes, wide cheerful mouth, small stubby body and limbs, the character appears to be vibrating or bouncing with musical energy, tiny musical notes floating around it, the overall style is smooth glossy Pixar/3D-animated aesthetic, being sliced to reveal hollow drum interior with resonating sound wave ripple patterns and tiny musical note particles inside' }
+        ]
+    },
+    squishy: {
+        label: 'Squishy / Stress Toy yang Dipotong',
+        items: [
+            { id: 'squishy_food', name: 'Squishy Makanan', emoji: '🍩', desc: 'a tiny miniature food-shaped squishy toy (donut/burger/cake shape) with colorful slow-rising foam, being cut to reveal the dense memory foam interior with smooth uniform texture, satisfying slow deformation' },
+            { id: 'stress_ball', name: 'Stress Ball', emoji: '🟡', desc: 'a tiny miniature mesh stress ball filled with colorful slime/gel, being cut open to reveal the gooey gel squishing out through the mesh net, colorful oozing material bulging through holes' },
+            { id: 'squishy_animal', name: 'Squishy Hewan', emoji: '🐱', desc: 'a tiny miniature animal-shaped squishy toy (cat/panda/unicorn), being sliced to reveal soft dense polyurethane foam interior, slow-rising material deforming satisfyingly around the blade' },
+            { id: 'slime_ball', name: 'Bola Slime', emoji: '🟢', desc: 'a tiny miniature ball filled with colorful stretchy slime, being cut open to reveal the gooey stretchy slime oozing out, glittery sparkly slime material dripping and stretching' },
+            { id: 'water_beads', name: 'Orbeez / Water Beads', emoji: '🔮', desc: 'a tiny miniature container or ball filled with colorful Orbeez water beads, being cut to reveal hundreds of tiny translucent colorful gel spheres spilling out, bouncy jelly-like hydrogel beads' },
+            { id: 'kinetic_sand', name: 'Kinetic Sand', emoji: '🏖️', desc: 'a tiny miniature block of kinetic sand being sliced, the sand holding its shape momentarily then slowly crumbling apart satisfyingly, flowing and cascading like slow-motion sand waterfall' },
+            { id: 'squishy_fruit', name: 'Squishy Buah', emoji: '🍓', desc: 'a tiny miniature fruit-shaped squishy toy (strawberry/peach/watermelon), being cut in half showing the printed fruit design on outside and plain white foam interior, satisfying slow squish' },
+            { id: 'fidget_cube', name: 'Fidget Cube', emoji: '🎲', desc: 'a tiny miniature fidget cube toy with buttons, switches, and spinners on each face, being cut open to reveal the internal spring mechanisms, button assemblies, and click mechanisms inside' }
+        ]
+    },
+    ball: {
+        label: 'Bola yang Dipotong',
+        items: [
+            { id: 'soccer_ball', name: 'Bola Sepak', emoji: '⚽', desc: 'a tiny miniature soccer ball with classic black and white pentagon panels, being cut in half to reveal multiple layers — outer synthetic leather, foam backing, polyester lining, rubber bladder in the center' },
+            { id: 'basketball', name: 'Bola Basket', emoji: '🏀', desc: 'a tiny miniature orange basketball with black channel lines, being cut in half showing thick rubber outer shell, nylon winding layers, and inflatable rubber bladder core' },
+            { id: 'tennis_ball', name: 'Bola Tenis', emoji: '🎾', desc: 'a tiny miniature yellow-green tennis ball with white seam line, being cut to reveal the hollow rubber core with pressurized air inside, thick felt outer layer separating from rubber' },
+            { id: 'baseball', name: 'Bola Baseball', emoji: '⚾', desc: 'a tiny miniature white baseball with red stitching, being cut to reveal the cork and rubber core center (pill), tightly wound yarn layers, and leather cover' },
+            { id: 'volleyball', name: 'Bola Voli', emoji: '🏐', desc: 'a tiny miniature white volleyball with colored panel design, being cut showing synthetic leather panels, cloth lining layers, and rubber bladder center' },
+            { id: 'golf_ball', name: 'Bola Golf', emoji: '⛳', desc: 'a tiny miniature white golf ball with dimpled surface, being perfectly halved to reveal the solid or multi-layer core — rubber center, mantle layer, and urethane cover with dimple pattern' },
+            { id: 'bowling_ball', name: 'Bola Bowling', emoji: '🎳', desc: 'a tiny miniature shiny bowling ball with finger holes, being cut to show the dense heavy core weight block inside, intermediate layer, and glossy coverstock outer shell' },
+            { id: 'rugby_ball', name: 'Bola Rugby', emoji: '🏉', desc: 'a tiny miniature oval rugby ball with textured grip panels, being cut showing rubber bladder, cotton lining, and synthetic leather outer panels with brand markings' }
+        ]
+    },
+    candy: {
+        label: 'Permen & Kue yang Dipotong',
+        items: [
+            { id: 'giant_gummy', name: 'Giant Gummy Bear', emoji: '🐻', desc: 'a tiny miniature giant gummy bear candy in translucent red/green/yellow, being sliced to reveal the dense chewy gelatin interior, gummy texture stretching at the cut, glossy surface' },
+            { id: 'chocolate_bar', name: 'Cokelat Batangan', emoji: '🍫', desc: 'a tiny miniature chocolate bar with snap segments, being cut to reveal layers — dark chocolate shell, creamy filling, caramel layer, wafer, nougat, rich brown chocolate cross-section' },
+            { id: 'lollipop', name: 'Lollipop Besar', emoji: '🍭', desc: 'a tiny miniature giant spiral lollipop with colorful swirl pattern on a stick, being cut across to reveal the rainbow spiral layers in cross-section, hard candy with concentric color rings' },
+            { id: 'candy_cane', name: 'Candy Cane', emoji: '🎄', desc: 'a tiny miniature red and white striped candy cane, being snapped and cut to show the hard sugar interior with twisted color stripes visible in the cross-section' },
+            { id: 'kinder_egg', name: 'Telur Kejutan', emoji: '🥚', desc: 'a tiny miniature chocolate surprise egg, being cut open to reveal thin chocolate outer shell, white chocolate inner layer, and a yellow plastic capsule with a tiny toy inside' },
+            { id: 'rainbow_cake', name: 'Rainbow Cake', emoji: '🌈', desc: 'a tiny miniature rainbow layer cake being sliced, revealing six colorful sponge layers (red, orange, yellow, green, blue, purple) with white cream frosting between each layer' },
+            { id: 'donut', name: 'Donat', emoji: '🍩', desc: 'a tiny miniature glazed donut with colorful sprinkles on top, being cut in half revealing the fluffy soft bread dough interior, glossy sugar glaze coating, cream or jam filling inside' },
+            { id: 'ice_cream', name: 'Es Krim Batangan', emoji: '🍦', desc: 'a tiny miniature ice cream bar on a stick, being sliced to reveal chocolate coating layer, vanilla/strawberry ice cream body, cookie crumble core, melting slightly at the cut edge' }
+        ]
+    },
+    soap: {
+        label: 'Sabun yang Dipotong (ASMR)',
+        items: [
+            { id: 'soap_color', name: 'Sabun Warna-Warni', emoji: '🟣', desc: 'a tiny miniature stack of colorful soap bars in rainbow colors (pink, blue, green, yellow, purple), being sliced into thin satisfying pieces, smooth creamy soap cross-section' },
+            { id: 'soap_flower', name: 'Sabun Bunga', emoji: '🌸', desc: 'a tiny miniature decorative flower-shaped soap with embedded dried flower petals, being cut to reveal the layered colored soap with botanical elements inside, aromatic beautiful cross-section' },
+            { id: 'soap_glitter', name: 'Sabun Glitter', emoji: '✨', desc: 'a tiny miniature soap bar with embedded glitter and shimmer particles throughout, being sliced to reveal sparkling glittery interior, biodegradable glitter catching the light' },
+            { id: 'soap_layer', name: 'Sabun Berlapis', emoji: '🌈', desc: 'a tiny miniature multi-layered soap bar with distinct colorful horizontal stripes, being cut to reveal perfectly clean layer boundaries — each color a different soap fragrance, satisfying cross-section' },
+            { id: 'soap_embed', name: 'Sabun dengan Mainan', emoji: '🧸', desc: 'a tiny miniature transparent glycerin soap bar with a small toy figurine embedded inside, being cut to reveal the toy slowly being exposed through clear soap layers, exciting discovery' },
+            { id: 'bath_bomb', name: 'Bath Bomb', emoji: '💣', desc: 'a tiny miniature colorful bath bomb sphere being cut in half, revealing compressed colorful powder layers inside, fizzing slightly, vibrant color rings like a geode, aromatic powder spilling' },
+            { id: 'soap_crystal', name: 'Sabun Kristal', emoji: '💎', desc: 'a tiny miniature crystal/gemstone shaped glycerin soap with translucent faceted design, being cut to show the gem-like transparent interior with color gradients, prismatic light effects' },
+            { id: 'soap_marble', name: 'Sabun Marmer', emoji: '🪨', desc: 'a tiny miniature marble-patterned soap with swirled multi-color design throughout, being sliced to reveal the organic marbled pattern continuing through the interior, unique in every cut' }
+        ]
+    },
+    toytren: {
+        label: 'Mainan Trending yang Dipotong',
+        items: [
+            { id: 'pop_it', name: 'Pop It', emoji: '🫧', desc: 'a tiny miniature colorful silicone Pop It fidget toy with bubble pattern, being cut to reveal the hollow silicone bubble chambers inside, flexible rubber material, satisfying cross-section of push-pop mechanism' },
+            { id: 'skibidi_toilet', name: 'Skibidi Toilet', emoji: '🚽', desc: 'a tiny miniature Skibidi Toilet figurine — the viral character with a human head emerging from a toilet bowl, being cut in half to reveal hollow plastic toilet interior, head mechanism, bizarre cross-section' },
+            { id: 'among_us', name: 'Among Us Crewmate', emoji: '🧑‍🚀', desc: 'a tiny miniature Among Us crewmate figurine in red/blue/green color with the iconic visor and backpack shape, being cut to reveal hollow plastic interior, tiny impostor bone inside joke' },
+            { id: 'fidget_spinner', name: 'Fidget Spinner', emoji: '🌀', desc: 'a tiny miniature fidget spinner with three-arm design, being sliced through the center to reveal the ball bearing mechanism in the middle, weighted arm interiors, precision engineering visible' },
+            { id: 'surprise_egg', name: 'Surprise Egg Besar', emoji: '🥚', desc: 'a tiny miniature giant surprise egg (LOL Surprise/Kinder style), being cut open layer by layer revealing wrapping, stickers, small accessories, and a tiny doll/toy character in the center' },
+            { id: 'rubiks_cube', name: "Rubik's Cube", emoji: '🟥', desc: 'a tiny miniature colorful Rubik\'s Cube puzzle, being cut in half diagonally to reveal the internal rotating mechanism — center cross, spring-loaded core, corner and edge piece construction' },
+            { id: 'roblox_fig', name: 'Figur Roblox', emoji: '🎮', desc: 'a tiny miniature Roblox character figurine with the blocky pixelated body style, customized avatar look, being cut to show hollow plastic blocky interior construction, joint mechanism' },
+            { id: 'minecraft_fig', name: 'Figur Minecraft', emoji: '⛏️', desc: 'a tiny miniature Minecraft character figurine (Steve/Creeper/Enderman) with the iconic pixelated cube design, being cut to reveal the blocky plastic construction, square joint mechanisms inside' },
+            { id: 'paw_patrol', name: 'Paw Patrol', emoji: '🐕', desc: 'a tiny miniature Paw Patrol toy figure (Chase/Marshall/Skye), the cute rescue puppy in uniform, being cut to show plastic body construction, paint layers, tiny vehicle mechanism inside' },
+            { id: 'cocomelon', name: 'Cocomelon JJ', emoji: '🍉', desc: 'a tiny miniature Cocomelon JJ baby doll figure with the signature watermelon-pattern onesie, round baby head, being cut to reveal soft vinyl body construction, rattle mechanism inside' }
         ]
     }
 };
@@ -515,6 +791,7 @@ const TOOL_SOUNDS = {
     router: 'very high-pitched screaming spindle rotation, aggressive routing sound as bit carves through wood, fine dust spraying, loud sustained whine',
 
     // Metal cutting tools
+    chainsaw_metal: 'loud aggressive two-stroke engine roaring, carbide chain teeth screeching against metal, metallic sparks flying, metal pipe cracking and ringing, exhaust popping',
     angle_grinder: 'extremely loud high-pitched grinding whine, sharp metal-on-metal screeching, abrasive disc spinning at high speed, metallic ringing',
     plasma_cutter: 'sharp electrical crackling and hissing of ionized gas arc, compressed air whooshing, sizzling of molten metal, intermittent popping',
     band_saw_metal: 'slow steady metallic scraping of blade teeth against metal, coolant dripping, low motor hum, rhythmic cutting pace',
@@ -547,6 +824,7 @@ const TOOL_SOUNDS = {
     level: 'quiet placement sound, bubble liquid settling with a faint sloshing, aluminum body tapping on surface',
 
     // Food cutting tools
+    chainsaw_food: 'loud two-stroke gasoline engine revving, chain teeth ripping through food dramatically, food splattering and splitting apart, engine roaring with exaggerated power',
     chef_knife: 'clean sharp chopping impact on cutting board, crisp slicing through food, blade rocking on wooden board, food fibers separating',
     bread_knife: 'gentle back-and-forth sawing through crusty bread, crust crackling and crunching, serrated blade rasping, crumbs falling',
     cleaver: 'heavy powerful thwack of thick blade hitting cutting board, bone cracking, meat splitting, deep impactful chopping sound',
@@ -555,6 +833,7 @@ const TOOL_SOUNDS = {
     food_processor: 'electric motor whirring up to speed, blades chopping rapidly, food being pulverized, lid vibrating, rhythmic pulsing',
 
     // Fruit cutting tools
+    chainsaw_fruit: 'aggressive two-stroke engine buzzing, chain teeth slicing through fruit flesh, juice spraying everywhere, fruit splitting open with a wet crack, engine revving',
     fruit_knife: 'gentle slicing through soft fruit flesh, juice squishing, thin blade gliding, fruit skin popping as blade penetrates',
     peeler: 'light scraping of blade against fruit skin, thin peel curling away, gentle rasping sound, rhythmic peeling strokes',
     melon_baller: 'soft scooping sound in fruit flesh, juice dripping, round scoop carving through melon, gentle pressing',
@@ -563,6 +842,7 @@ const TOOL_SOUNDS = {
     mango_slicer: 'blade pressing through mango flesh, pit resisting and cracking, juice squishing out, fruit splitting',
 
     // Vegetable cutting tools
+    chainsaw_veg: 'loud gasoline engine roaring, chain teeth chopping through vegetables dramatically, vegetable fibers cracking and snapping, pieces flying, engine sputtering',
     nakiri: 'clean precise chopping on cutting board, crisp vegetable fibers snapping, flat blade making full contact, rapid rhythmic chopping',
     mandoline: 'rapid sliding scraping across sharp blade, vegetable slicing into uniform pieces, guard clicking, steady rhythmic motion',
     herb_scissors: 'multiple blades snipping simultaneously, herbs being minced with rapid clicks, parallel blades sliding, fresh crunch',
@@ -571,6 +851,7 @@ const TOOL_SOUNDS = {
     santoku: 'smooth rocking chop on cutting board, clean slicing through vegetables, blade tapping board, crisp precise cutting',
 
     // Drinks / bottle cutting tools
+    chainsaw_bottle: 'two-stroke engine revving aggressively, chain teeth grinding through glass with high-pitched screeching, glass shattering and cracking, liquid splashing, engine roaring',
     bottle_cutter: 'glass scoring with a sharp scratching sound, scoring wheel rolling with high-pitched scraping, glass clicking as it rotates',
     glass_cutter: 'high-pitched scratching of diamond tip on glass surface, thin glass cracking along score line, crisp snapping',
     wire_saw: 'thin wire rasping back and forth against glass, gritty abrasive grinding, glass dust scraping, steady sawing rhythm',
@@ -579,6 +860,7 @@ const TOOL_SOUNDS = {
     heat_cutter: 'nichrome wire humming with electrical current, material sizzling on contact, faint burning smell crackling, quiet buzzing',
 
     // Shoe cutting tools
+    chainsaw_shoe: 'loud two-stroke engine buzzing, chain teeth ripping through leather and rubber sole, material tearing and splitting apart, foam layers crumbling, engine revving',
     leather_knife: 'sharp blade slicing through thick leather, leather fibers separating with a quiet tearing, blade scraping on cutting mat',
     shoe_scissors: 'heavy shears crunching through leather and rubber, thick material compressing and snapping, powerful snipping',
     rotary_cutter: 'circular blade rolling through fabric and leather, smooth cutting glide, blade clicking in safety guard, fabric tearing',
@@ -587,6 +869,7 @@ const TOOL_SOUNDS = {
     die_cutter: 'hydraulic press hissing and thumping, sharp die stamping through material, clean punching impact, machine cycling',
 
     // Toy car cutting tools
+    chainsaw_toycar: 'aggressive two-stroke engine revving, chain teeth grinding through die-cast metal and plastic, tiny metal sparks flying, plastic cracking, engine roaring loudly',
     mini_saw: 'fine-toothed blade rasping through plastic, quiet back-and-forth sawing, plastic cracking, tiny precise strokes',
     dremel_toy: 'high-pitched rotary tool whining, cutting disc grinding through die-cast metal, tiny metal sparks ticking, motor buzzing',
     plastic_cutter: 'scribing tool scratching along plastic surface, scored plastic snapping cleanly, clicking and cracking',
@@ -595,6 +878,7 @@ const TOOL_SOUNDS = {
     cutting_pliers: 'sharp snipping click of hardened steel jaws, plastic sprue snapping, spring mechanism clicking, clean cut pop',
 
     // Bus Tayo cutting tools
+    chainsaw_tayo: 'loud gasoline engine sputtering to life, chain teeth ripping through toy plastic body, plastic cracking and splitting dramatically, engine buzzing at high RPM',
     tayo_saw: 'fine saw teeth rasping through toy plastic, back-and-forth sawing motion, plastic cracking and separating, gentle cutting',
     tayo_dremel: 'high-speed rotary buzz cutting through plastic, motor whining at high RPM, plastic shavings spraying, precision grinding',
     tayo_snips: 'sharp precision snipping clicks, thin plastic popping as cut, spring-loaded mechanism clicking, clean separation',
@@ -603,6 +887,7 @@ const TOOL_SOUNDS = {
     tayo_laser: 'focused laser beam with a subtle high-frequency humming, material vaporizing with tiny crackling pops, fan cooling whirring',
 
     // Sprunki doll cutting tools
+    chainsaw_sprunki: 'two-stroke engine roaring, chain teeth shredding through plush fabric, cotton stuffing exploding outward, fabric tearing dramatically, engine revving and buzzing',
     sprunki_scissors: 'fabric scissors snipping through plush material, cotton stuffing puffing out, thread snapping, fabric tearing gently',
     sprunki_knife: 'craft blade slicing through seam stitching, fabric separating, stuffing cotton poofing out, precise quiet cutting',
     sprunki_rotary: 'circular rotary blade rolling through fabric layers, motor buzzing softly, plush material separating, smooth gliding',
@@ -610,13 +895,14 @@ const TOOL_SOUNDS = {
     sprunki_laser: 'laser humming with precision focus, fabric edges singeing with faint crackling, material vaporizing cleanly, fan whirring',
     sprunki_hot: 'heated blade sizzling through synthetic plush, material edges melting and sealing, quiet hissing, fabric separating',
 
-    // Superhero figure cutting tools
-    laser_sword: 'thin saw blade rasping back and forth through hard plastic, precise strokes, plastic cracking, blade scraping cleanly',
-    plasma_blade: 'plasma torch hissing sharply, compressed air rushing, plastic melting and sizzling, brief crackling on contact, steady hiss',
-    power_saw_hero: 'electric circular saw whining at high speed, plastic and rubber being cut with a buzzing grind, motor revving',
-    diamond_blade: 'diamond disc grinding with high-pitched whine, hard material being abraded, fine dust spraying, steady motor hum',
-    ultra_cutter: 'high-frequency ultrasonic vibration humming, almost silent cutting through material, faint electronic tone, clean separation',
-    hero_guillotine: 'lever handle creaking, blade dropping with a sharp metallic thunk, clean slice through material, crisp cutting impact',
+    // Superhero figure crafting tools
+    chainsaw_hero: 'aggressive two-stroke engine buzzing, chain teeth grinding through plastic action figure, plastic cracking and splitting, internal joints snapping, engine roaring dramatically',
+    laser_sword: 'fine-tooth hobby saw rasping gently back and forth, precise careful strokes on plastic, soft scraping rhythm, quiet material filing',
+    plasma_blade: 'craft knife scoring a precise line on plastic surface, gentle scraping, blade tip tracing along mold seam, quiet focused work',
+    power_saw_hero: 'small rotary tool humming at moderate speed, sanding drum smoothing surface gently, motor buzzing softly, fine dust falling',
+    diamond_blade: 'diamond needle file rasping lightly against plastic surface, fine grit smoothing sound, gentle back-and-forth filing, quiet precision work',
+    ultra_cutter: 'sanding stick gliding smoothly over surface, soft abrasive rasping, foam pad flexing gently, quiet finishing strokes',
+    hero_guillotine: 'precision nippers clicking cleanly, spring mechanism snapping, small plastic sprue popping free, crisp snipping sound',
 
     // Anomaly figure cutting tools
     anomaly_chainsaw: 'two-stroke engine sputtering to life, chain rattling and buzzing at high speed, material cracking under the blade, engine revving',
@@ -624,7 +910,47 @@ const TOOL_SOUNDS = {
     anomaly_blade: 'oscillating blade vibrating rapidly with a buzzing hum, material being cut with quick vibration, motor oscillating rhythmically',
     anomaly_saw: 'thin coping saw blade rasping back and forth, frame flexing slightly, material cracking along cut line, quiet manual sawing',
     anomaly_plasma: 'plasma arc hissing and crackling, compressed air rushing through nozzle, molten material sizzling, sharp electrical buzzing',
-    anomaly_sonic: 'high-frequency ultrasonic blade humming at near-silent pitch, material cleanly separating, faint electronic whine, precision vibration'
+    anomaly_sonic: 'high-frequency ultrasonic blade humming at near-silent pitch, material cleanly separating, faint electronic whine, precision vibration',
+
+    // Squishy / stress toy cutting tools
+    chainsaw_squishy: 'two-stroke engine buzzing, chain teeth ripping through soft foam, foam compressing and tearing, squishy material squishing and deforming, engine revving',
+    squishy_knife: 'blade slicing smoothly through soft foam, satisfying clean cut, foam compressing then slowly bouncing back, quiet slicing sound',
+    squishy_scissors: 'scissors snipping through dense foam, foam squishing under blade pressure, slow compression, material springing back on edges',
+    squishy_rotary: 'circular blade rolling through soft material, quiet smooth cutting, foam cleanly separating, satisfying slicing glide',
+    squishy_hot: 'heated blade sizzling through foam material, foam melting at contact point, quiet hissing, sealed smooth edges forming',
+    squishy_laser: 'laser humming with focused beam, foam vaporizing cleanly, faint crackling, precise cut with no deformation',
+
+    // Sports ball cutting tools
+    chainsaw_ball: 'engine roaring, chain teeth grinding through leather and rubber, ball material tearing and splitting, air hissing out from pressurized bladder, layers separating',
+    ball_knife: 'blade cutting through tough leather and rubber layers, material resisting then giving way, air escaping with a hiss, clean slicing',
+    ball_saw: 'hacksaw teeth rasping against rubber and leather, steady back-forth motion, material gradually yielding, synthetic fibers snapping',
+    ball_dremel: 'rotary tool buzzing at high speed, cutting disc grinding through ball layers, rubber shavings flying, motor whining under load',
+    ball_scissors: 'heavy scissors crunching through thick rubber and leather panels, material compressing, strong snipping clicks, tough material yielding',
+    ball_hot: 'heated wire sizzling through synthetic materials, rubber melting and separating, faint chemical smell crackling, clean thermal cut',
+
+    // Candy & cake cutting tools
+    chainsaw_candy: 'engine buzzing dramatically, chain teeth crunching through hard candy shell, sugar shattering, chocolate cracking, sweet pieces flying, engine revving',
+    candy_knife: 'knife cutting cleanly through chocolate and candy layers, shell cracking, soft filling squishing, satisfying snap of candy breaking',
+    candy_cleaver: 'heavy chopping impact on hard candy, sugar shell cracking and shattering, chocolate pieces flying, powerful thwack on cutting board',
+    candy_scissors: 'scissors snipping through gummy and chewy candy, stretchy material resisting then snapping, clean chewy cuts',
+    candy_wire: 'thin wire gliding smoothly through soft chocolate and fudge, perfectly silent cuts, minimal resistance, smooth separation',
+    candy_saw: 'serrated blade sawing through cake layers, sponge fibers tearing gently, cream squishing, steady sawing motion',
+
+    // Soap cutting tools (ASMR)
+    chainsaw_soap: 'engine buzzing, chain teeth shredding through soap bars, soap chunks and shavings flying, soap crumbling satisfyingly, engine sputtering',
+    soap_knife: 'razor-sharp blade gliding through soap bar with almost no resistance, smooth satisfying slicing, soap cleanly separating, quiet precise cut',
+    soap_peeler: 'peeler blade curling thin soap shavings, satisfying curling sound, long ribbons of soap peeling away, gentle rasping',
+    soap_chopper: 'grid blade pressing down through soap, soap crumbling into perfect cubes, satisfying crunching as bars separate into pieces, spring clicking',
+    soap_cutter: 'multiple parallel wires simultaneously slicing through soap, uniform pieces falling away, quiet wire cutting, satisfying separation',
+    soap_scraper: 'scraping blade shaving thin flakes from soap surface, delicate curls forming, gentle rhythmic scraping, ASMR satisfying sound',
+
+    // Trending toy cutting tools
+    chainsaw_toytren: 'two-stroke engine revving, chain teeth ripping through plastic and silicone, toy material cracking and splitting, colorful pieces flying, engine buzzing',
+    toytren_knife: 'craft blade carefully cutting through plastic toy body, material cracking along cut line, clean precise slicing, plastic separating',
+    toytren_saw: 'fine-tooth saw rasping through plastic, back-forth motion, material gradually yielding, plastic dust falling',
+    toytren_dremel: 'rotary tool whining at high speed, cutting disc grinding through toy plastic, shavings spraying, motor buzzing under load',
+    toytren_scissors: 'sharp scissors snipping through silicone and rubber toy material, material stretching then snapping, clean cutting clicks',
+    toytren_hot: 'heated blade sizzling through plastic and silicone, material melting at contact, bubbling edges, quiet hissing and faint smoke'
 };
 
 // ==========================================
@@ -696,6 +1022,14 @@ function selectCategory(card) {
     renderMaterialGrid(selectedCategory);
     showSection('toolSection');
     showSection('materialSection');
+
+    // Show tree position section only for wood category
+    if (selectedCategory === 'wood') {
+        showSection('treePositionSection');
+    } else {
+        hideSection('treePositionSection');
+    }
+
     showSection('customSection');
     showSection('actionSection');
     hideSection('outputSection');
@@ -837,6 +1171,17 @@ function buildPrompt(tool, bg, lighting, hand, glove, brand, detail, condition) 
     }
 
     // Material/target object description
+    // Tree position (wood category only)
+    let treePositionLine = '';
+    if (selectedCategory === 'wood') {
+        const treePos = document.getElementById('treePositionSelect').value;
+        const treePosData = TREE_POSITIONS[treePos];
+        treePositionLine = `\n\nTree/Plant Position: ${treePosData.desc}`;
+        if (treePosData.falling_effect) {
+            treePositionLine += `\n\n${treePosData.falling_effect}`;
+        }
+    }
+
     let materialLine = '';
     if (selectedMaterial) {
         const actionVerbs = {
@@ -853,11 +1198,11 @@ function buildPrompt(tool, bg, lighting, hand, glove, brand, detail, condition) 
             toycar: 'actively sawing through',
             bustayo: 'actively cutting through',
             sprunki: 'actively cutting open',
-            superhero: 'actively slicing through',
+            superhero: 'carefully displaying a cross-section of',
             anomaly: 'actively cutting through'
         };
         const verb = actionVerbs[selectedCategory] || 'working on';
-        materialLine = `\n\nThe miniature tool is ${verb} ${selectedMaterial.desc}. IMPORTANT: both the tool AND the material/object are miniature-sized, proportionally scaled to each other — they are equally tiny, creating a complete miniature diorama scene. The interaction between the tool and the material is realistic \u2014 showing contact point details, material deformation, tiny debris particles, and natural residue appropriate to the cutting process (fine dust, small shavings, material chips), all at miniature scale.`;
+        materialLine = `\n\nThe miniature tool is ${verb} ${selectedMaterial.desc}. IMPORTANT: both the tool AND the material/object are miniature-sized, proportionally scaled to each other — they are equally tiny, creating a complete miniature diorama scene. The interaction between the tool and the material is realistic \u2014 showing contact point details, material deformation, tiny debris particles, and natural residue appropriate to the cutting process (fine dust, small shavings, material chips), all at miniature scale.${treePositionLine}`;
     }
 
     // Reference image instructions
@@ -942,6 +1287,11 @@ function generateRandom() {
         randomizeSelect('brandSelect');
         randomizeSelect('detailSelect');
         randomizeSelect('conditionSelect');
+
+        // Randomize tree position for wood category
+        if (randCat === 'wood') {
+            randomizeSelect('treePositionSelect');
+        }
 
         // Generate
         generatePrompt();
