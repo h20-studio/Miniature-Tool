@@ -269,7 +269,19 @@ const BACKGROUNDS = {
     outdoor: 'an outdoor construction site with gravel ground, partially built structure in the background, blue sky with scattered clouds, natural midday sun',
     studio: 'a clean seamless dark gray studio backdrop, professional product photography setup, controlled lighting, minimalist aesthetic, no distractions',
     construction: 'a raw concrete floor at a busy construction site, steel rebar and building materials in the background, safety equipment visible, dusty industrial atmosphere',
-    garden: 'a wooden garden table surrounded by plants and flowers, garden gloves and pots visible, natural green environment, pleasant outdoor setting'
+    garden: 'a wooden garden table surrounded by plants and flowers, garden gloves and pots visible, natural green environment, pleasant outdoor setting',
+    kitchen: 'a bright modern kitchen countertop with marble surface, colorful kitchen utensils, fresh ingredients, warm lighting from pendant lamps, cozy homey atmosphere',
+    bathroom: 'a clean white bathroom countertop with soap dishes and colorful towels, bright clean lighting, tiles in the background, fresh and hygienic atmosphere',
+    candy_world: 'a fantastical candy landscape background with lollipop trees, chocolate river, gummy bear hills, cotton candy clouds, rainbow sprinkle ground, vibrant saturated colors like Willy Wonka factory',
+    underwater: 'an underwater ocean scene with turquoise blue water, colorful coral reef, tropical fish swimming in bokeh background, sunlight rays penetrating from above, bubbles floating upward',
+    space: 'a cosmic outer space background with twinkling stars, colorful nebula clouds in purple and blue, distant planets visible, floating in zero gravity, dramatic space lighting',
+    rainbow: 'a magical rainbow gradient background with soft pastel colors blending together, sparkles and shimmer effects, dreamy fairy-tale atmosphere, whimsical and cheerful',
+    playground: 'a colorful children playground background with bright slides, swings, and climbing structures in soft bokeh, rubber safety flooring, cheerful sunny day atmosphere',
+    lava: 'a dramatic volcanic lava background with glowing orange-red molten lava flows, dark volcanic rock, fiery sparks and embers floating, intense heat shimmer, dramatic apocalyptic lighting',
+    ice: 'a frozen ice cave background with crystalline blue ice walls, icicles hanging from above, frost-covered surfaces, cool blue lighting reflecting off transparent ice formations, magical winter wonderland',
+    neon_city: 'a vibrant cyberpunk neon city background at night, glowing neon signs in pink, blue, and purple, rain-slicked streets reflecting colorful lights, futuristic urban atmosphere',
+    jungle: 'a dense tropical jungle background with giant green leaves, exotic colorful flowers, vines hanging down, parrots and butterflies in soft bokeh, misty humid tropical atmosphere with golden sunlight',
+    treasure: 'an ancient treasure cave background with piles of gold coins, sparkling gemstones, treasure chests overflowing, mysterious torch lighting casting warm golden glow on stone walls'
 };
 
 const LIGHTING = {
@@ -1199,10 +1211,15 @@ function buildPrompt(tool, bg, lighting, hand, glove, brand, detail, condition) 
             bustayo: 'actively cutting through',
             sprunki: 'actively cutting open',
             superhero: 'carefully displaying a cross-section of',
-            anomaly: 'actively cutting through'
+            anomaly: 'actively cutting through',
+            squishy: 'actively slicing through',
+            ball: 'actively sawing through',
+            candy: 'actively cutting through',
+            soap: 'satisfyingly slicing through',
+            toytren: 'actively cutting open'
         };
         const verb = actionVerbs[selectedCategory] || 'working on';
-        materialLine = `\n\nThe miniature tool is ${verb} ${selectedMaterial.desc}. IMPORTANT: both the tool AND the material/object are miniature-sized, proportionally scaled to each other — they are equally tiny, creating a complete miniature diorama scene. The interaction between the tool and the material is realistic \u2014 showing contact point details, material deformation, tiny debris particles, and natural residue appropriate to the cutting process (fine dust, small shavings, material chips), all at miniature scale.${treePositionLine}`;
+        materialLine = `\n\nThe tiny miniature tool is ${verb} ${selectedMaterial.desc}. CRITICAL SCALE INSTRUCTION: The object/material being cut is HELD IN ONE HAND by the person — the person is holding the tiny object between their thumb and fingers (pinch grip) or in their palm. The cutting tool is EXTREMELY SMALL and MINIATURE — it fits in the other hand or between two fingers. BOTH the tool AND the object are equally tiny (about 3-5cm / 1-2 inches), sitting on or held above the person's hand. The person's hand is LARGE and NORMAL-SIZED, the tool and object are TINY in comparison. The interaction between the tiny tool and the tiny material is realistic — showing contact point details, material deformation, tiny debris particles, and natural residue appropriate to the cutting process (fine dust, small shavings, material chips), all at miniature scale.${treePositionLine}`;
     }
 
     // Reference image instructions
@@ -1232,9 +1249,9 @@ function buildPrompt(tool, bg, lighting, hand, glove, brand, detail, condition) 
         soundLine = `\n\nAudio/Sound: The scene has realistic ambient sound — ${toolSound}. The sound is authentic and matches the real tool perfectly, creating an immersive experience.`;
     }
 
-    const prompt = `Ultra-realistic photograph of ${toolDesc}, ${brandInfo.colors}, ${CONDITIONS[condition]}. The tool itself shows realistic signs of workshop use \u2014 minor scuffs, dust, and work residue on its surface.
+    const prompt = `Ultra-realistic photograph of ${toolDesc}, ${brandInfo.colors}, ${CONDITIONS[condition]}. IMPORTANT: The tool is EXTREMELY TINY and MINIATURE — only about 3-5cm (1-2 inches) long, small enough to be held between two fingers. The tool itself shows realistic signs of workshop use — minor scuffs, dust, and work residue on its surface.
 
-The miniature tool is ${HAND_POSITIONS[hand]}, with the hand ${gloveDesc}.${materialLine}
+The tiny miniature tool is ${HAND_POSITIONS[hand]}, with the hand ${gloveDesc}. The person is holding the tiny object being cut in one hand while using the tiny tool with the other hand — both the tool and the object are MINIATURE-SIZED compared to the NORMAL-SIZED human hands.${materialLine}
 
 Scene setting: ${BACKGROUNDS[bg]}.
 
@@ -1244,7 +1261,7 @@ Camera & Detail: ${DETAIL_LEVELS[detail]}, ${atmosphere}.
 
 Additional realism details: ${extraDetail}. ${extraDetail2}. ${handRealism}${soundLine}${refImageLine}
 
-Style: Ultra photorealistic, 8K resolution, physically-based rendering, ray-traced global illumination, cinematic depth of field, professional product photography meets macro photography, the miniature tool is an exact scaled-down replica of the real thing with every functional part perfectly reproduced at tiny scale.
+Style: Ultra photorealistic, 8K resolution, physically-based rendering, ray-traced global illumination, cinematic depth of field, professional product photography meets macro photography. CRITICAL: the miniature tool is an exact scaled-down replica of the real thing with every functional part perfectly reproduced at tiny scale. The object being cut is ALSO tiny and held in the person's hand. Human hands are NORMAL full-size, everything else (tool + object) is MINIATURE.
 
 Negative: cartoon, illustration, painting, sketch, blurry, low quality, distorted fingers, extra fingers, deformed hands, unrealistic proportions, clean pristine hands.`;
 
